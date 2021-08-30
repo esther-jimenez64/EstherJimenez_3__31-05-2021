@@ -7,7 +7,7 @@
     url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
     url("fontfamily/Shrikhand-Regular.ttf") format("svg");
 }
-
+/*Les fonts*/
 @font-face {
   font-family: "Roboto-Italic.ttf";
   src: url("fontfamily/Roboto-Italic.ttf");
@@ -17,6 +17,28 @@
     url("fontfamily/Roboto-Italic.ttf") format("truetype"),
     url("fontfamily/Roboto-Italic.ttf") format("svg");
 }
-p {
-  font-family: "Roboto-Italic.ttf";
+@font-face {
+  font-family: "Roboto-Bold.ttf";
+  src: url("fontfamily/Roboto-Bold.ttf");
+  src: url("fontfamily/Roboto-Bold.ttf")
+      format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
+    url("fontfamily/Roboto-Bold.ttf") format("woff"),
+    url("fontfamily/Roboto-Bold.ttf") format("truetype"),
+    url("fontfamily/Roboto-Bold.ttf") format("svg");
+}
+
+body {
+  margin: 0;
+}
+
+/**Header**/
+
+#logo img {
+  width: 55%;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
 }

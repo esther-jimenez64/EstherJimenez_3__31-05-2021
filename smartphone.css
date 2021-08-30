@@ -1,0 +1,109 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+
+  /**Header**/
+
+  #logo img {
+    width: 55%;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+  }
+
+  /*Paris*/
+
+  #positionParis {
+    box-shadow: 0px 3px 3px #73737338 inset;
+    background-color: #eeecec;
+    padding-top: 2px; /*background et div englobante de Paris et icon*/
+    height: 55px;
+    margin-top: 10px;
+  }
+  #positionParis p {
+    font: "roboto,sans-serif.ttf";
+    font-size: 18px;
+    font-weight: bold; /*titre Paris*/
+    color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: center;
+  }
+
+  .fa-map-marker-alt {
+    color: rgb(71, 71, 71);
+    position: relative;
+    bottom: 38px; /*modification et positionment icon localitation*/
+    margin-left: 26%;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+  }
+  /***Section explore et reserve***/
+  #ReserveExplore {
+    background-color: rgb(245, 245, 245);
+    padding-top: 1%;
+    padding-bottom: 15%;
+  }
+
+  #ReserveExplore h2 {
+    font-size: 1.5rem;
+    width: 300px;
+    text-align: center;
+    font-family: "roboto", sans-serif; /*titre reservation*/
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  #ReserveExplore p {
+    display: inline;
+    font-family: "roboto,sans-serif.ttf";
+    color: rgb(88, 88, 88);
+    font-size: 1.3rem;
+    width: 95%; /*paragraphe*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+  }
+
+  .BoutonExplore {
+    border-radius: 10px/20px;
+    border-radius: 100px 100px 100px 97px;
+    background-image: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #9356dc 100%
+    ); /* le background du bouton recherche   */
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 17px;
+    font-family: "";
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-left: 18%;
+    margin-top: 10%;
+  }
+
+  .BoutonExplore a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Bold.ttf"; /*le titre a l'interrieure du bouton*/
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 400px;
+  }
+
+  /***Section Fonctionnement***/
+
+  #Fonctionnement {
+    font-family: "Roboto-Bold.ttf";
+    margin-top: 10%;
+  }
+}
