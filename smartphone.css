@@ -79,10 +79,6 @@
     width: 200px;
     text-align: center;
     padding: 17px;
-    font-family: "";
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
     margin-left: 18%;
     margin-top: 10%;
   }
@@ -111,9 +107,6 @@
     font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
     margin-top: 10%;
   }
-  #Fonctionnement :nth-child(2) {
-    margin-left: 15px;
-  }
   .BoutonNumero {
     border-radius: 50%;
     background-color: #9356dc;
@@ -125,8 +118,9 @@
     font-family: "Roboto-Bold.ttf";
     position: relative;
     top: 45px;
-    right: 15px;
-    align-content: center;
+    width: 10px;
+    display: flex;
+    align-content: flex-start;
   }
 
   .BoutonTitre {
@@ -155,9 +149,85 @@
     font-size: 1.3rem;
   }
   /***Section Restaurant***/
-  #Restaurant a {
+  #Restaurant h2 {
+    font-family: "Roboto-Bold.ttf";
+    margin-left: 4%;
+    margin-top: 70px;
+  }
+  #cards {
+    display: flex;
+    flex-direction: column; /*positionnement des card et flex*/
+  }
+
+  .boxcard figure img {
+    object-fit: cover; /*all img of Restaurant*/
+    width: 340px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .boxcard figure {
+    background-color: white;
+    background-color: rgb(252, 249, 252);
+    cursor: pointer; /*toute figure pop*/
+    border: 7px solid rgb(252, 250, 250);
+    border-radius: 20px/20px;
+    border-radius: 30px 30px 20px 20px;
+    border-top: 7px solid #f8f4f4;
+    border-bottom: 7px solid #f3efef;
+    box-shadow: #c3c3c3 10px 10px 10px;
+    width: 333px;
+    height: 275px;
+  } /* all figure of Restaurant*/
+
+  figcaption :nth-child(1) {
+    font-family: "Roboto-Bold.ttf";
+    font-size: 1.3rem;
+    color: black;
+    margin-top: 3%;
+    margin-left: 2%;
+  } /* figcaption of Restaurant*/
+
+  figcaption :nth-child(2) {
+    font-family: "roboto", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(53, 53, 53);
+    position: relative; /*figcaption of Restaurant*/
+    bottom: 15px;
+    left: 2%;
+  }
+
+  .boxcard {
+    position: relative;
+    right: 7%;
+    bottom: 15px;
     text-decoration: none;
     color: black; /*tout les a de fonctionnement*/
     cursor: pointer;
+  } /*Move all figure of Restaurant*/
+
+  .boxcard:hover {
+    transform: scale(1.05); /*effect of hover of Restaurant card*/
+  }
+
+  .fa-heart:before        /*icon Heart*/ {
+    margin-left: 290px;
+    position: relative;
+    bottom: 82px;
+    font-size: 1.7rem;
+    color: rgb(53, 53, 53);
+  }
+
+  .Nouveau {
+    font-family: "Roboto-Bold.ttf";
+    color: #1f997c;
+    background-color: #99e2d0;
+    padding: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 300px;
+    position: relative;
+    bottom: 290px;
+    left: 68%;
   }
 }

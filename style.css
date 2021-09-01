@@ -43,24 +43,3 @@ body {
   margin-top: 8%;
 }
 
-<section id="Restaurant">
-<h2>Restaurant</h2>
-<!--Titre-->
-<div id="cards">
-    <a href="#" class="boxcard">
-        <figure>
-            <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Plat de nouriture" />
-            <figcaption>
-                <p class="TitrePlat">La palette du gout</p>
-                <!--Figure card of menu-->
-                <p class="TitreVille">Ménilmontant</p>
-
-                <div class="Ceour">
-                    <i class="far fa-heart"></i>
-                    <!--Icon-->
-                </div>
-            </figcaption>
-        </figure>
-    </a>
-</div>
-</section>
