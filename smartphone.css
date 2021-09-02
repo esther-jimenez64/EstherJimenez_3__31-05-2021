@@ -4,13 +4,12 @@
   }
   /**Header**/
   #logo img {
-    width: 55%;
+    width: 60%;
   }
 
   #logo {
-    display: flex;
-    justify-content: center;
     margin-top: 8%;
+    margin-left: 27%;
   }
   /*Paris*/
   #positionParis {
@@ -117,7 +116,7 @@
     font-size: 1rem;
     font-family: "Roboto-Bold.ttf";
     position: relative;
-    top: 45px;
+    top: 50px;
     width: 10px;
     display: flex;
     align-content: flex-start;
@@ -151,7 +150,7 @@
   /***Section Restaurant***/
   #Restaurant h2 {
     font-family: "Roboto-Bold.ttf";
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: 70px;
   }
   #cards {
@@ -178,6 +177,7 @@
     box-shadow: #c3c3c3 10px 10px 10px;
     width: 333px;
     height: 275px;
+    margin-bottom: 0px;
   } /* all figure of Restaurant*/
 
   figcaption :nth-child(1) {
@@ -224,10 +224,55 @@
     background-color: #99e2d0;
     padding: 2%;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; /*Vignete nouveau sur les cards*/
     width: 300px;
     position: relative;
     bottom: 290px;
     left: 68%;
+  }
+  /***Footer***/
+  footer {
+    background-color: rgb(51, 51, 51); /*background de footer*/
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+  }
+  footer a {
+    text-decoration: none; /*tout les paragraphe cliquable*/
+    color: white;
+    cursor: pointer;
+  }
+  #img {
+    background-image: url(images/logo/ohmyfood.png); /*logo ho my food blanc*/
+  }
+  #menuFin li {
+    position: relative; /*les li de Footer*/
+    top: 25px;
+    right: 7%;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 2%;
+  }
+  .SecondMenue li {
+    list-style: none;
+    margin: 2%;
+    position: relative; /*les li de Footer 2*/
+    bottom: 15px;
+    right: 7%;
+  }
+  .fa-utensils:before {
+    font-size: 0.7rem; /*icon fourchette*/
+    position: relative;
+    bottom: 35px;
+    left: 25px;
+  }
+  .fa-hands-helping:before  /*icon main */ {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+  }
+  #menuFin {
+    margin-left: 5%; /*div englobante*/
   }
 }
