@@ -106,21 +106,6 @@
     font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
     margin-top: 10%;
   }
-  .BoutonNumero {
-    border-radius: 50%;
-    background-color: #9356dc;
-    color: white; /*All Button Number*/
-    padding: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 1rem;
-    font-family: "Roboto-Bold.ttf";
-    position: relative;
-    top: 50px;
-    width: 10px;
-    display: flex;
-    align-content: flex-start;
-  }
 
   .BoutonTitre {
     border-radius: 30px 20px 20px 30px;
@@ -242,8 +227,11 @@
     color: white;
     cursor: pointer;
   }
-  #img {
-    background-image: url(images/logo/ohmyfood.png); /*logo ho my food blanc*/
+  footer img {
+    width: 30%; /*logo ho my food blanc*/
+    position: relative;
+    top: 20px;
+    left: 6%;
   }
   #menuFin li {
     position: relative; /*les li de Footer*/
