@@ -106,6 +106,22 @@
     font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
     margin-top: 10%;
   }
+  .BoutonNumero {
+    border-radius: 50%;
+    background-color: #9356dc;
+    color: white; /*All Button Number*/
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-family: "Roboto-Bold.ttf";
+    position: relative;
+    top: 50px;
+    width: 10px;
+    display: flex;
+    align-content: flex-start;
+    cursor: pointer;
+  }
 
   .BoutonTitre {
     border-radius: 30px 20px 20px 30px;
@@ -219,13 +235,19 @@
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     margin-top: 50px;
+    height: 200px;
+  }
+  footer h3 {
+    font-family: "Shrikhand-Regular.ttf";
+    margin-top: 5%;
+    margin-left: 6%;
+    color: rgba(235, 235, 235, 0.897);
   }
   footer a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
-    cursor: pointer;
   }
   footer img {
     width: 30%; /*logo ho my food blanc*/
@@ -235,7 +257,7 @@
   }
   #menuFin li {
     position: relative; /*les li de Footer*/
-    top: 25px;
+    top: 1px;
     right: 7%;
     list-style: none;
     justify-content: flex-start;
@@ -245,19 +267,19 @@
     list-style: none;
     margin: 2%;
     position: relative; /*les li de Footer 2*/
-    bottom: 15px;
+    bottom: 40px;
     right: 7%;
   }
   .fa-utensils:before {
     font-size: 0.7rem; /*icon fourchette*/
     position: relative;
-    bottom: 35px;
+    bottom: 60px;
     left: 25px;
   }
   .fa-hands-helping:before  /*icon main */ {
     font-size: 0.7rem;
     position: relative;
-    bottom: 10px;
+    bottom: 35px;
     left: 10px;
   }
   #menuFin {
