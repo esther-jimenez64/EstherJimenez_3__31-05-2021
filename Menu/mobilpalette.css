@@ -4,7 +4,7 @@
   }
   /**Header**/
   #logo img {
-    width: 40%;
+    width: 40%; /*img logo */
   }
 
   #logo {
@@ -20,5 +20,10 @@
     position: relative;
     bottom: 20px;
     left: 10%;
+  }
+
+  #photoBackground img {
+    width: 200px;
+    height: 80%;
   }
 }

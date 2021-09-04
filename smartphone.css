@@ -134,19 +134,20 @@
   }
 
   .fa-mobile-alt:before,
-  .fa-list:before {
+  .fa-list:before,
+  .fa-store:before {
     color: rgb(88, 88, 88);
     position: relative;
     bottom: 48px;
     left: 55px;
     font-size: 1.3rem;
   }
-  .fa-store:before {
+
+  .SurvolIcon:hover .fa-store:before,
+  .SurvolIcon:hover .fa-list:before,
+  .SurvolIcon:hover .fa-mobile-alt:before {
+    /*icon au survol*/
     color: #9356dc;
-    position: relative;
-    bottom: 48px;
-    left: 55px;
-    font-size: 1.3rem;
   }
   /***Section Restaurant***/
   #Restaurant h2 {
