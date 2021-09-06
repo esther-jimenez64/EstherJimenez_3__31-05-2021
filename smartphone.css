@@ -72,8 +72,7 @@
     background-image: radial-gradient(
       ellipse farthest-corner at 20px 0,
       #ff79da 0%,
-      #9356dc 100%
-    ); /* le background du bouton recherche   */
+      #9356dc 100%); /* le background du bouton recherche   */
     height: 20px;
     width: 200px;
     text-align: center;
