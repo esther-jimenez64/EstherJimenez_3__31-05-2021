@@ -65,10 +65,10 @@
   }
 
   #ALaFrance {
-    background-color: rgba(231, 231, 231, 0.993);
+    background-color: rgba(238, 238, 238, 0.993);
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;
-    height: 1080px; /*id qui englobe toute la section plat */
+    height: 1075px; /*id qui englobe toute la section plat */
     width: 378px;
     position: relative;
     bottom: 40px;
@@ -106,7 +106,7 @@
     right: 5%; /*position et class englobante des cards*/
     border-radius: 15px 15px 15px 15px;
     background-color: rgb(243, 243, 243);
-    box-shadow: #d1d1d1ee 4px 4px 4px 4px;
+    box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;
     width: 330px;
