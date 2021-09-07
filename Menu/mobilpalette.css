@@ -40,7 +40,8 @@
   .FlecheIcon  /*move Icon arrow*/ {
     position: relative;
     bottom: 20px;
-    left: 10%;
+    left: 7%;
+    font-size: 1.1rem;
   }
 
   #photoBackground img {
@@ -68,7 +69,7 @@
     background-color: rgba(238, 238, 238, 0.993);
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;
-    height: 1075px; /*id qui englobe toute la section plat */
+    height: 1120px; /*id qui englobe toute la section plat */
     width: 378px;
     position: relative;
     bottom: 40px;
@@ -92,6 +93,8 @@
     font-family: "roboto", sans-serif; /*titre entré*/
     color: #0f0f0f;
     font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
@@ -154,7 +157,7 @@
     text-align: center;
     padding: 17px;
     margin-left: 25%;
-    margin-top: 5%;
+    margin-top: 8%;
   }
 
   /***Footer***/

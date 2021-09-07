@@ -1,0 +1,219 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  @font-face {
+    font-family: "Shrikhand-Regular.ttf";
+    src: url("fontfamily/Shrikhand-Regular.ttf");
+    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
+        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
+  }
+
+  @font-face {
+    font-family: "Roboto-Bold.ttf";
+    src: url("fontfamily/Roboto-Bold.ttf");
+    src: url("fontfamily/Roboto-Bold.ttf")
+        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
+      url("fontfamily/Roboto-Bold.ttf") format("woff"),
+      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
+      url("fontfamily/Roboto-Bold.ttf") format("svg");
+  }
+
+  body {
+    margin: 0px;
+  }
+  /**Header**/
+  #logo img {
+    width: 40%; /*img logo */
+  }
+
+  #logo {
+    position: relative; /*position du logo*/
+    left: 28%;
+    top: 5px;
+  }
+
+  .fa-arrow-left:before  /*icon Fléche*/ {
+    color: rgb(31, 30, 30);
+  }
+
+  .FlecheIcon  /*move Icon arrow*/ {
+    position: relative;
+    bottom: 20px;
+    left: 7%;
+    font-size: 1.1rem;
+  }
+
+  #photoBackground img {
+    /*dimension image */
+    width: 374px;
+    height: 280px;
+  }
+
+  /***Section La palette du goût***/
+
+  #LaNoteEnchante h2 {
+    font-family: "shrikhand", sans-serif; /*titre La note enchantée*/
+    margin-left: 5%;
+  }
+
+  .fa-heart:before {
+    font-size: 1.3rem;
+    color: rgb(36, 36, 36);
+    position: relative; /*Icon heart*/
+    bottom: 48px;
+    left: 320px;
+  }
+
+  #LaNoteEnchante {
+    background-color: rgba(238, 238, 238, 0.993);
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 20px;
+    height: 1210px; /*id qui englobe toute la section plat */
+    width: 378px;
+    position: relative;
+    bottom: 40px;
+  }
+  /*Cards*/
+  .entre {
+    position: relative;
+    bottom: 25px; /*class englobante pour bouger les cards*/
+    margin-left: 5%;
+    margin-bottom: 40px;
+  }
+
+  .entre a {
+    text-decoration: none;
+    color: black; /*les lien de touts les plats*/
+    font-family: "roboto", sans-serif;
+  }
+
+  .entre h3 {
+    font-size: 1rem;
+    font-family: "roboto", sans-serif; /*titre entré*/
+    color: #0f0f0f;
+    font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h3:hover {
+    border-bottom: solid 3px #99e2d0;
+    width: 5rem;
+    padding-bottom: 5px; /*les titre de section au survol*/
+  }
+  .backgroundCards :first-child {
+    font-weight: bold; /*Titre 1 de cards */
+  }
+  .backgroundCards {
+    position: relative;
+    right: 5%; /*position et class englobante des cards*/
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: #ddddddee 8px 8px 8px 8px;
+    padding: 10px;
+    height: 55px;
+    width: 330px;
+    margin-left: 2%;
+    margin-bottom: 20px;
+  }
+  .backgroundCards :last-child {
+    font-weight: bold; /*les prix*/
+    color: rgb(68, 68, 68);
+    position: relative;
+    bottom: 24px;
+    left: 83%;
+  }
+
+  .backgroundCards p {
+    /*espace entre les p*/
+    margin: 8px;
+  }
+
+  .tailleP {
+    font-size: 0.9rem; /*taille des p qui depasser le prix*/
+  }
+
+  /***Section Commander****/
+
+  .BoutonExplore a {
+    font-size: 1.1rem;
+    width: 400px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Bold.ttf";
+    cursor: pointer;
+  }
+
+  .BoutonExplore {
+    border-radius: 10px/20px;
+    border-radius: 100px 100px 100px 97px;
+    background-image: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #9356dc 100%
+    ); /* le background du bouton recherche   */
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 17px;
+    margin-left: 25%;
+    margin-top: 8%;
+  }
+
+  /***Footer***/
+
+  footer {
+    background-color: rgb(51, 51, 51); /*background de footer*/
+    padding-top: 8px;
+    padding-bottom: 1px;
+    margin-top: 80px;
+    height: 200px;
+  }
+  footer h3 {
+    font-family: "Shrikhand-Regular.ttf";
+    font-weight: lighter;
+    margin-top: 5%; /*titre ho my food*/
+    margin-left: 6%;
+    color: rgba(255, 255, 255, 0.74);
+  }
+  footer a {
+    text-decoration: none; /*tout les paragraphe cliquable*/
+    color: white;
+  }
+  footer img {
+    width: 30%; /*logo ho my food blanc*/
+    position: relative;
+    top: 20px;
+    left: 6%;
+  }
+  #menuFin li {
+    position: relative; /*les li de Footer*/
+    top: 1px;
+    right: 7%;
+    list-style: none;
+    justify-content: flex-start;
+    margin: 2%;
+  }
+  .SecondMenue li {
+    list-style: none;
+    margin: 2%;
+    position: relative; /*les li de Footer 2*/
+    bottom: 40px;
+    right: 7%;
+  }
+  .fa-utensils:before {
+    font-size: 0.7rem; /*icon fourchette*/
+    position: relative;
+    bottom: 60px;
+    left: 25px;
+  }
+  .fa-hands-helping:before  /*icon main */ {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+  }
+  #menuFin {
+    margin-left: 5%; /*div englobante*/
+  }
+}
