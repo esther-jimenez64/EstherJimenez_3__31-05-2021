@@ -20,7 +20,7 @@
     margin-top: 10px;
   }
   #positionParis p {
-    font: "roboto,sans-serif.ttf";
+    font-family: "roboto,sans-serif.ttf";
     font-size: 18px;
     font-weight: bold; /*titre Paris*/
     color: rgb(56, 55, 55);
@@ -155,7 +155,7 @@
     margin-left: 5%;
     margin-top: 70px;
   }
-  #cards {
+  .cards {
     display: flex;
     flex-direction: column; /*positionnement des card et flex*/
   }
@@ -201,7 +201,7 @@
 
   .boxcard {
     position: relative;
-    right: 7%;
+    right: 8%;
     bottom: 15px;
     text-decoration: none;
     color: black; /*tout les a de fonctionnement*/
@@ -272,6 +272,12 @@
     bottom: 40px;
     right: 7%;
   }
+  .SecondMenue :nth-child(2) {
+    position: relative; /*Contact footer*/
+    bottom: 50px;
+    left: 6%;
+  }
+
   .fa-utensils:before {
     font-size: 0.7rem; /*icon fourchette*/
     position: relative;
