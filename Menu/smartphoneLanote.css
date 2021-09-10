@@ -52,7 +52,7 @@
 
   /***Section La palette du goût***/
 
-  #LaNoteEnchante h2 {
+  #blockMenu h2 {
     font-family: "shrikhand", sans-serif; /*titre La note enchantée*/
     margin-left: 5%;
   }
@@ -65,7 +65,7 @@
     left: 320px;
   }
 
-  #LaNoteEnchante {
+  #blockMenu {
     background-color: rgba(238, 238, 238, 0.993);
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;

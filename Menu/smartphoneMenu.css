@@ -52,8 +52,8 @@
 
   /***Section À la française***/
 
-  #ALaFrance h2 {
-    font-family: "shrikhand", sans-serif; /*titre À la française */
+  #blockMenu h2 {
+    font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
     margin-left: 5%;
   }
 
@@ -65,7 +65,7 @@
     left: 320px;
   }
 
-  #ALaFrance {
+  #blockMenu {
     background-color: rgba(238, 238, 238, 0.993);
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;
@@ -98,7 +98,7 @@
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
-    width: 5rem;
+    width: 8%;
     padding-bottom: 5px; /*les titre de section au survol*/
   }
   .backgroundCards :first-child {

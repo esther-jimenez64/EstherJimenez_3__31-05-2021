@@ -1,0 +1,60 @@
+@media screen and (min-width: 57px) and (max-width: 366px) {
+  header {
+    background: fixed;
+    width: 410px;
+    background-size: 366px;
+    margin-right: 20px;
+  }
+
+  #positionParis {
+    /*div englobante */
+    width: 430px;
+  }
+
+  #ReserveExplore   /*background de la div*/ {
+    width: 470px;
+  }
+  #ReserveExplore h2   /*titre reservation*/ {
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  #ReserveExplore p    /*paragraphe explore*/ {
+    width: 366px;
+  }
+
+  .BoutonExplore {
+    /*bouton violet explore*/
+    width: 200px;
+    margin-left: 75px;
+  }
+
+  /***Section Restaurant***/
+
+  #Restaurant {
+    position: absolute;
+    left: 1px;
+  }
+
+  .Nouveau {
+    position: relative;
+    left: 245px;
+    bottom: 270px;
+  }
+
+  /***Footer***/
+  footer {
+    width: 366px;
+    position: absolute;
+    top: 2300px;
+    margin-bottom: 0px;
+  }
+
+  .SecondMenue :nth-child(2) {  /*contact*/
+    position: relative;
+    bottom: 50px;
+    left: 22px;
+  }
+
+
+}

@@ -52,12 +52,16 @@
     font-weight: bold;
     margin-top: 10%;
     margin-left: 10%;
+    display: flex;
+    justify-content: center;
   }
 
   #ReserveExplore p {
     display: inline;
     font-family: "roboto,sans-serif.ttf";
     color: rgb(88, 88, 88);
+    width: 300px;
+    min-width: 300px;
     font-size: 1.3rem;
     width: 95%; /*paragraphe*/
     text-align: center;
