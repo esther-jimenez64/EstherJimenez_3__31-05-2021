@@ -1,0 +1,192 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /**Header**/
+  #logo img {
+    /*dimension logo*/
+    width: 78%;
+  }
+
+  #logo {
+    /*bouger le logo*/
+    margin-top: 4%;
+    margin-right: 15%;
+  }
+
+  #positionParis {
+    /*background et div englobante de Paris et icon*/
+    height: 100px;
+  }
+
+  #positionParis p  /*titre Paris*/ {
+    font-size: 1.7rem;
+  }
+
+  .fa-map-marker-alt {
+    /*icon*/
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 53%;
+  }
+  /***Section explore et reserve***/
+  #ReserveExplore {
+    /*background de la div*/
+    width: 760px;
+  }
+
+  #ReserveExplore p {
+    /*paragraphe*/
+    font-size: 1.9rem;
+  }
+  #ReserveExplore h2 {
+    /*titre Reservation*/
+    font-size: 2rem;
+    width: 500px;
+    position: relative;
+    left: 7%;
+  }
+
+  .BoutonExplore {
+    /* le background du bouton explore */
+    position: relative;
+    bottom: 4px;
+    left: 10%;
+    padding: 35px;
+    width: 40%;
+  }
+  .BoutonExplore a {
+    /*all buton Explore lien et police*/
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+  /***Section Foctionnement***/
+  #Fonctionnement h2 {
+    /*Titre Fonctionnement*/
+    font-size: 2.2rem;
+  }
+  .BoutonTitre {
+    /*all title of cards */
+    width: 680px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .BoutonNumero {
+    /*button number*/
+    padding: 18px;
+    font-size: 1.2rem;
+    position: relative;
+    top: 85px;
+  }
+
+  #Fonctionnement a {
+    /*tout les a de fonctionnement et le taille de police*/
+    font-size: 1.4rem;
+    position: relative;
+    top: 20%;
+  }
+  .fa-mobile-alt:before,
+  .fa-list:before,    /*icon*/
+  .fa-store:before {
+    font-size: 2.2rem;
+    position: relative;
+    left: 80px;
+    bottom: 63px;
+  }
+  /***Section Restaurant***/
+
+  #Restaurant h2 /*titre Restaurant*/ {
+    font-size: 2.3rem;
+  }
+  .boxcard figure {
+    /* all figure of Restaurant*/
+    width: 730px;
+    height: 400px;
+  }
+
+  .boxcard figure img {
+    /*all img of Restaurant*/
+    width: 737px;
+    height: 300px;
+  }
+
+  figure {
+    /*bouger les cards*/
+    position: relative;
+    left: 3%;
+  }
+
+  figcaption :nth-child(1)  /*titre principal figure*/ {
+    font-size: 2rem;
+    position: relative;
+    bottom: 15px;
+  }
+
+  figcaption :nth-child(2)  /*titre secondaire figure*/ {
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 32px;
+  }
+
+  .Nouveau {
+    /*Vignete nouveau sur les cards*/
+    padding: 23px;
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 385px;
+    margin-left: 50px;
+  }
+
+  .fa-heart:before {
+    /*icon ceour*/
+    font-size: 2.9rem;
+    position: relative;
+    left: 99%;
+    bottom: 138px;
+  }
+  /***footer**/
+
+  footer {
+    padding-bottom: 95px; /*taille du background footer*/
+  }
+
+  footer h3 {
+    /*logo oh my food*/
+    font-size: 2rem;
+  }
+
+  #menuFin li {
+    /*les li de Footer*/
+    font-size: 1.3rem;
+  }
+  .SecondMenue li {
+    /*les li de Footer 2*/
+    font-size: 1.3rem;
+    position: relative;
+    right: 3%;
+  }
+
+  .SecondMenue :nth-child(2) {
+    /*Contact footer*/
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+    font-size: 1.3rem;
+  }
+
+  .fa-utensils:before {
+    /*icon fourchette*/
+    font-size: 1.2rem;
+    position: relative;
+    left: 32px;
+    bottom: 72px;
+  }
+  .fa-hands-helping:before  /*icon main */ {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .fa,  /*icon main qui ne veut pas bouger bouge les 2 icon*/
+  .fas {
+    position: relative;
+    right: 2%;
+  }
+}

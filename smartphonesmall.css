@@ -371,6 +371,7 @@
   .fa-map-marker-alt {
     /*icon*/
     font-size: 0.9rem;
+    margin-left: 15%;
   }
   /***Section explore et reserve***/
   #ReserveExplore {
@@ -406,14 +407,10 @@
     /*all buton Explore lien et police*/
     font-size: 0.8rem;
   }
-
-  .fa-map-marker-alt {
-    /*icon*/
-    margin-left: 15%;
-  }
   /***Section Foctionnement***/
   .BoutonTitre {
     /*all title of cards */
+    width: 150px;
   }
   .BoutonNumero {
     /*button number*/
