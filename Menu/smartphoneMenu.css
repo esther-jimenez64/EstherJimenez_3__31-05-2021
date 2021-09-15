@@ -46,7 +46,7 @@
 
   #photoBackground img {
     /*dimension image */
-    width: 374px;
+    width: 100%;
     height: 80%;
   }
 
@@ -60,9 +60,9 @@
   .fa-heart:before {
     font-size: 1.3rem;
     color: rgb(36, 36, 36);
-    position: relative; /*Icon heart*/
-    bottom: 48px;
-    left: 320px;
+    position: absolute; /*Icon heart*/
+    top: 40px;
+    right: 10%;
   }
 
   #blockMenu {
@@ -70,7 +70,7 @@
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;
     height: 1120px; /*id qui englobe toute la section plat */
-    width: 378px;
+    width: 100%;
     position: relative;
     bottom: 40px;
   }
@@ -112,7 +112,7 @@
     box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;
-    width: 330px;
+    width: 100ù;
     margin-left: 2%;
     margin-bottom: 20px;
   }
@@ -156,7 +156,7 @@
     width: 150px;
     text-align: center;
     padding: 17px;
-    margin-left: 25%;
+    margin-left: 30%;
     margin-top: 5%;
   }
 
@@ -176,16 +176,14 @@
     margin-left: 6%;
     color: rgba(255, 255, 255, 0.74);
   }
+  footer h3:hover {
+    border-bottom: transparent;
+  }
   footer a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
-  footer img {
-    width: 30%; /*logo ho my food blanc*/
-    position: relative;
-    top: 20px;
-    left: 6%;
-  }
+
   #menuFin li {
     position: relative; /*les li de Footer*/
     top: 1px;

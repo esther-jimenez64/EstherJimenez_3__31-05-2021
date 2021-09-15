@@ -110,7 +110,7 @@
   figure {
     /*bouger les cards*/
     position: relative;
-    left: 3%;
+    left: 5%;
   }
 
   figcaption :nth-child(1)  /*titre principal figure*/ {

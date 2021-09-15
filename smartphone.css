@@ -215,9 +215,9 @@
   }
 
   .fa-heart:before        /*icon Heart*/ {
-    margin-left: 290px;
-    position: relative;
-    bottom: 82px;
+    position: absolute;
+    bottom: 35px;
+    right: 2%;
     font-size: 1.7rem;
     color: rgb(53, 53, 53);
   }
