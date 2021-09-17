@@ -103,7 +103,7 @@
 
   .boxcard figure img {
     /*all img of Restaurant*/
-    width: 100.8%;
+    width: 100.7%;
     height: 300px;
   }
 
@@ -125,13 +125,17 @@
     bottom: 32px;
   }
 
-  .Nouveau {
+  .ms-Button {
     /*Vignete nouveau sur les cards*/
+    font-family: "Roboto-Bold.ttf";
+    color: #1f997c;
+    background-color: #99e2d0;
+    border: transparent;
     padding: 23px;
     font-size: 1.3rem;
     position: relative;
     bottom: 385px;
-    margin-left: 50px;
+    left: 88%;
   }
 
   .fa-heart:before {

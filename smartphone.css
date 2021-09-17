@@ -135,6 +135,7 @@
   .fa-mobile-alt:before,
   .fa-list:before,
   .fa-store:before {
+    /*icon*/
     color: rgb(88, 88, 88);
     position: relative;
     bottom: 48px;
@@ -151,7 +152,7 @@
   /***Section Restaurant***/
   #Restaurant h2 {
     font-family: "Roboto-Bold.ttf";
-    margin-left: 5%;
+    margin-left: 3%;
     margin-top: 70px;
   }
   .cards {
@@ -176,7 +177,7 @@
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef;
     box-shadow: #c3c3c3 10px 10px 10px;
-    width: 95%;
+    width: 94%;
     height: 275px;
     margin-bottom: 0px;
   } /* all figure of Restaurant*/
@@ -222,17 +223,17 @@
     color: rgb(53, 53, 53);
   }
 
-  .Nouveau {
+  .ms-Button {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
-    padding: 2%;
-    padding-left: 15px;
-    padding-right: 15px; /*Vignete nouveau sur les cards*/
-    width: 300px;
-    position: relative;
-    bottom: 280px;
-    left: 240p;
+    /*Vignete nouveau sur les cards*/
+    padding: 6px 15px;
+    position: absolute;
+    right: 0.2px;
+    bottom: 240px;
+    border: transparent;
+    font-size: 1rem;
   }
   /***Footer***/
   footer {
@@ -241,6 +242,8 @@
     padding-bottom: 1px;
     margin-top: 50px;
     height: 200px;
+    position: absolute;
+    width: 100%;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
@@ -262,22 +265,23 @@
   #menuFin li {
     position: relative; /*les li de Footer*/
     top: 1px;
-    right: 7%;
+    right: 30px;
     list-style: none;
     justify-content: flex-start;
-    margin: 2%;
+    margin: 5px;
   }
   .SecondMenue li {
     list-style: none;
     margin: 2%;
-    position: relative; /*les li de Footer 2*/
-    bottom: 40px;
-    right: 7%;
+    position: absolute; /*les li de Footer 2*/
+    left: 17px;
+    top: 118px;
   }
   .SecondMenue :nth-child(2) {
-    position: relative; /*Contact footer*/
-    bottom: 50px;
-    left: 6%;
+    /*Contact footer*/
+    position: absolute;
+    top: 150px;
+    left: 23px;
   }
 
   .fa-utensils:before {
