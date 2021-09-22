@@ -1,4 +1,32 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  @font-face {
+    font-family: "Shrikhand-Regular.ttf";
+    src: url("fontfamily/Shrikhand-Regular.ttf");
+    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
+        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
+      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
+  }
+  /*Les fonts*/
+  @font-face {
+    font-family: "Roboto-Italic.ttf";
+    src: url("fontfamily/Roboto-Italic.ttf");
+    src: url("fontfamily/Roboto-Italic.ttf?#iefix")
+        format("fontfamily/Roboto-Italic.ttfembedded-opentype"),
+      url("fontfamily/Roboto-Italic.ttf") format("woff"),
+      url("fontfamily/Roboto-Italic.ttf") format("truetype"),
+      url("fontfamily/Roboto-Italic.ttf") format("svg");
+  }
+  @font-face {
+    font-family: "Roboto-Bold.ttf";
+    src: url("fontfamily/Roboto-Bold.ttf");
+    src: url("fontfamily/Roboto-Bold.ttf")
+        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
+      url("fontfamily/Roboto-Bold.ttf") format("woff"),
+      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
+      url("fontfamily/Roboto-Bold.ttf") format("svg");
+  }
   /**Header**/
   #logo img {
     /*dimension logo*/
@@ -101,11 +129,12 @@
     /* all figure of Restaurant*/
     width: 95%;
     height: 400px;
+    text-overflow: hidden;
   }
 
   .boxcard figure img {
     /*all img of Restaurant*/
-    width: 100.7%;
+    width: 101.5%;
     height: 300px;
   }
 
