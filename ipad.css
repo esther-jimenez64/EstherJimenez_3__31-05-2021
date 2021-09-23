@@ -1,32 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  @font-face {
-    font-family: "Shrikhand-Regular.ttf";
-    src: url("fontfamily/Shrikhand-Regular.ttf");
-    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
-        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
-  }
-  /*Les fonts*/
-  @font-face {
-    font-family: "Roboto-Italic.ttf";
-    src: url("fontfamily/Roboto-Italic.ttf");
-    src: url("fontfamily/Roboto-Italic.ttf?#iefix")
-        format("fontfamily/Roboto-Italic.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Italic.ttf") format("woff"),
-      url("fontfamily/Roboto-Italic.ttf") format("truetype"),
-      url("fontfamily/Roboto-Italic.ttf") format("svg");
-  }
-  @font-face {
-    font-family: "Roboto-Bold.ttf";
-    src: url("fontfamily/Roboto-Bold.ttf");
-    src: url("fontfamily/Roboto-Bold.ttf")
-        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Bold.ttf") format("woff"),
-      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
-      url("fontfamily/Roboto-Bold.ttf") format("svg");
-  }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   /**Header**/
   #logo img {
     /*dimension logo*/
@@ -84,8 +56,6 @@
     /*all buton Explore lien et police*/
     font-size: 1.5rem;
     padding-top: 10px;
-    position: relative;
-    bottom: 7px;
   }
   /***Section Foctionnement***/
   #Fonctionnement h2 {
@@ -129,19 +99,18 @@
     /* all figure of Restaurant*/
     width: 95%;
     height: 400px;
-    text-overflow: hidden;
   }
 
   .boxcard figure img {
     /*all img of Restaurant*/
-    width: 101.5%;
+    width: 100.7%;
     height: 300px;
   }
 
   figure {
     /*bouger les cards*/
     position: relative;
-    left: 5%;
+    left: 1%;
   }
 
   figcaption :nth-child(1)  /*titre principal figure*/ {
@@ -156,31 +125,31 @@
     bottom: 32px;
   }
 
-  .ms-Button {
+  .nouveau {
     /*Vignete nouveau sur les cards*/
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
     border: transparent;
     padding: 23px;
+    width: 90px;
     font-size: 1.3rem;
-    position: relative;
-    bottom: 385px;
-    left: 88%;
+    position: absolute;
+    bottom: 720px;
+    right: 8px;
   }
 
   .fa-heart:before {
     /*icon ceour*/
     font-size: 2.9rem;
     position: absolute;
-    bottom: 40px;
-    right: 10%;
+    bottom: 35px;
+    right: 5%;
   }
   /***footer**/
 
   footer {
     padding-bottom: 95px; /*taille du background footer*/
-    padding-bottom: 110px;
   }
 
   footer h3 {

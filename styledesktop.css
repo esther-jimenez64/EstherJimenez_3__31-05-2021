@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1900px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -27,29 +27,38 @@
       url("fontfamily/Roboto-Bold.ttf") format("truetype"),
       url("fontfamily/Roboto-Bold.ttf") format("svg");
   }
+
   body {
     margin: 0;
-  }
-  /**Header**/
-  #logo img {
-    width: 60%;
+    min-width: 1024px;
   }
 
+  /**Header**/
+
   #logo {
+    display: flex;
+    justify-content: center;
     margin-top: 8%;
-    margin-left: 27%;
+  }
+  #logo img {
+    width: 650px;
+  }
+  #logo {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
   }
   /*Paris*/
   #positionParis {
     box-shadow: 0px 3px 3px #73737338 inset;
     background-color: #eeecec;
     padding-top: 2px; /*background et div englobante de Paris et icon*/
-    height: 55px;
+    height: 100px;
     margin-top: 10px;
   }
   #positionParis p {
-    font-family: "roboto,sans-serif.ttf";
-    font-size: 18px;
+    font: "roboto,sans-serif.ttf";
+    font-size: 30px;
     font-weight: bold; /*titre Paris*/
     color: rgb(56, 55, 55);
     display: flex;
@@ -59,38 +68,34 @@
   .fa-map-marker-alt {
     color: rgb(71, 71, 71);
     position: relative;
-    bottom: 38px; /*modification et positionment icon localitation*/
+    bottom: 60px; /*modification et positionment icon localitation*/
     margin-left: 26%;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
+    font-size: 25px;
   }
   /***Section explore et reserve***/
   #ReserveExplore {
     background-color: rgb(245, 245, 245);
     padding-top: 1%; /*background de la div*/
-    padding-bottom: 15%;
-    text-align: center;
-    width: 100%;
+    padding-bottom: 4%;
   }
 
   #ReserveExplore h2 {
-    font-size: 1.5rem;
-    width: 95%;
-    text-align: center;
+    font-size: 2.2rem;
+    width: 300px;
     font-family: "roboto", sans-serif; /*titre reservation*/
     font-weight: bold;
-    margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 40%;
   }
 
   #ReserveExplore p {
     display: inline;
     font-family: "roboto,sans-serif.ttf";
     color: rgb(88, 88, 88);
-    font-size: 1.3rem;
+    font-size: 2rem;
     width: 95%; /*paragraphe*/
     text-align: center;
+    display: flex;
+    justify-content: center;
     margin-left: 3%;
   }
 
@@ -103,49 +108,54 @@
       #9356dc 100%
     ); /* le background du bouton recherche   */
     height: 20px;
-    width: 60%;
+    width: 288px;
     text-align: center;
-    padding: 17px;
+    padding: 40px;
+    margin-left: 38%;
+    margin-top: 4%;
+    cursor: pointer;
   }
   .BoutonExplore a {
-    font-size: 1.1rem;
-    width: 400px;
+    font-size: 1.6rem;
     text-decoration: none; /*all buton Explore lien*/
     color: white;
     font-family: "Roboto-Bold.ttf";
     cursor: pointer;
-    text-align: center;
+    position: relative;
+    bottom: 5px;
   }
   /***Section Fonctionnement***/
+  #Fonctionnement h2 {
+    font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
+    margin-top: 5%;
+    font-size: 2.4rem;
+    position: relative;
+    left: 37%;
+  }
 
   #Fonctionnement {
     background-color: transparent; /*div englobante*/
-  }
-  #Fonctionnement a {
-    text-decoration: none;
-    color: black;
-    font-family: "Roboto-Bold.ttf"; /*tout les a de fonctionnement*/
-    cursor: pointer;
-    font-size: 1.1rem;
-    width: 400px;
-  }
-  #Fonctionnement h2 {
-    font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
-    margin-top: 10%;
+    display: flex;
+    position: relative;
+    left: 40px;
   }
   .BoutonNumero {
     border-radius: 50%;
     background-color: #9356dc;
     color: white; /*All Button Number*/
-    padding: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 35px;
     font-size: 1rem;
     font-family: "Roboto-Bold.ttf";
     position: relative;
-    top: 50px;
+    top: 265px;
+    right: 170px;
     width: 10px;
     display: flex;
+    z-index: 1;
     align-content: flex-start;
     cursor: pointer;
   }
@@ -154,21 +164,35 @@
     border-radius: 30px 20px 20px 30px;
     box-shadow: #d1d1d1 5px 5px 5px; /*all tittle of foctionnement*/
     background-color: rgb(243, 243, 243);
-    padding: 25px;
-    text-align: center;
-    width: 80%;
-    margin-left: 4%;
+    padding: 70px;
+    position: relative;
+    top: 200px;
+    right: 188px;
   }
 
+  #Fonctionnement a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto-Bold.ttf"; /*tout les a de fonctionnement*/
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
   .fa-mobile-alt:before,
-  .fa-list:before,
-  .fa-store:before {
-    /*icon*/
+.fa-list:before,     /*icon*/
+.fa-store:before {
     color: rgb(88, 88, 88);
     position: relative;
-    bottom: 48px;
-    left: 55px;
-    font-size: 1.3rem;
+    top: 270px;
+    right: 495px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+  }
+  .fa-mobile-alt:before {
+    /*icon mobil bouger*/
+    position: relative;
+    right: 510px;
   }
 
   .SurvolIcon:hover .fa-store:before,
@@ -178,42 +202,52 @@
     color: #9356dc;
   }
   /***Section Restaurant***/
+
+  #Restaurant {
+    position: relative;
+    top: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+
   #Restaurant h2 {
     font-family: "Roboto-Bold.ttf";
-    margin-left: 3%;
-    margin-top: 70px;
+    margin-left: 41%;
+    margin-top: 30px;
+    font-size: 3rem;
   }
-  .cards {
-    display: flex;
-    flex-direction: column; /*positionnement des card et flex*/
+  #cards {
+    /*positionnement des card et flex*/
+    flex: 1 1 160px;
   }
 
   .boxcard figure img {
     object-fit: cover; /*all img of Restaurant*/
-    width: 101.5%;
-    height: 200px;
+    width: 712px;
+    height: 280px;
     border-radius: 20px 20px 0px 0px;
   }
 
   .boxcard figure {
     background-color: white;
     background-color: rgb(252, 249, 252);
-    cursor: pointer;
+    cursor: pointer; /*toute figure pop*/
     border: 7px solid rgb(252, 250, 250);
     border-radius: 20px/20px;
     border-radius: 30px 30px 20px 20px;
     border-top: 7px solid #f8f4f4;
     border-bottom: 7px solid #f3efef;
     box-shadow: #c3c3c3 10px 10px 10px;
-    width: 94%;
-    height: 275px;
+    width: 690px;
+    height: 370px;
     margin-bottom: 0px;
-    text-overflow: hidden;
   } /* all figure of Restaurant*/
-  figure {
-    margin-left: 8%; /*position of restaurant cards*/
-  }
 
+  figure {
+    margin-left: 10%; /*position of restaurant cards*/
+    padding-right: 19px;
+  }
   figcaption :nth-child(1) {
     font-family: "Roboto-Bold.ttf";
     font-size: 1.3rem;
@@ -233,7 +267,7 @@
 
   .boxcard {
     position: relative;
-    right: 8%;
+    right: 7%;
     bottom: 15px;
     text-decoration: none;
     color: black; /*tout les a de fonctionnement*/
@@ -245,10 +279,10 @@
   }
 
   .fa-heart:before        /*icon Heart*/ {
-    position: absolute;
-    bottom: 35px;
-    right: 2%;
-    font-size: 1.7rem;
+    margin-left: 650px;
+    position: relative;
+    bottom: 82px;
+    font-size: 1.9rem;
     color: rgb(53, 53, 53);
   }
 
@@ -257,76 +291,75 @@
     color: #1f997c;
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
-    padding: 6px 15px;
-    position: absolute;
-    right: 0.2px;
-    bottom: 225px;
+    position: relative;
+    left: 88%;
+    bottom: 350px;
+    padding: 15px 25px;
     border: transparent;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
-  /***Footer***/
   /***Footer***/
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 1px;
-    margin-top: 50px;
-    height: 200px;
-    position: absolute;
-    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 390px;
+    height: 230px;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 5%;
-    margin-left: 6%;
+    margin-top: 2%;
+    margin-left: 2%;
     color: rgba(235, 235, 235, 0.897);
+    font-size: 2rem;
   }
   footer a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
-  footer img {
-    width: 30%; /*logo ho my food blanc*/
-    position: relative;
-    top: 20px;
-    left: 6%;
-  }
   #menuFin li {
     position: relative; /*les li de Footer*/
-    top: 1px;
-    right: 30px;
+    bottom: 12px;
+    right: 5.2%;
     list-style: none;
     justify-content: flex-start;
-    margin: 5px;
+    margin: 0.5%;
+    font-size: 1.2rem;
   }
   .SecondMenue li {
     list-style: none;
     margin: 2%;
-    position: absolute; /*les li de Footer 2*/
-    left: 17px;
-    top: 118px;
+    position: relative; /*les li de Footer 2*/
+    bottom: 59px;
+    right: 3%;
+    font-size: 1.1rem;
+  }
+  .SecondMenue {
+    height: 0px;
   }
   .SecondMenue :nth-child(2) {
     /*Contact footer*/
-    position: absolute;
-    top: 150px;
-    left: 23px;
-  }
-
-  .fa-utensils:before {
-    font-size: 0.7rem; /*icon fourchette*/
     position: relative;
-    bottom: 60px;
-    left: 15px;
+    bottom: 80px;
+    left: 1.5%;
+    font-size: 1.2rem;
+  }
+  .fa-utensils:before {
+    /*icon fourchette*/
+    position: relative;
+    bottom: 69px;
+    left: 25px;
+    font-size: 0.9rem;
   }
   .fa-hands-helping:before  /*icon main */ {
-    font-size: 0.7rem;
     position: relative;
-    bottom: 35px;
-    left: 2px;
+    bottom: 39px;
+    left: 7px;
+    font-size: 0.9rem;
   }
   #menuFin {
     margin-left: 5%; /*div englobante*/
+    margin-bottom: 0px;
   }
 }
