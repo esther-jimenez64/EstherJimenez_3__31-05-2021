@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 767px) and (max-width: 1023px) {
   /**Header**/
   #logo img {
     /*dimension logo*/
@@ -41,14 +41,14 @@
     font-size: 2rem;
     width: 95%;
     position: relative;
-    right: 6%;
+    right: 0.3%;
   }
 
   .BoutonExplore {
     /* le background du bouton explore */
     position: relative;
-    bottom: 4px;
-    left: 10%;
+    top: 40px;
+    left: 27%;
     padding: 35px;
     width: 40%;
   }
@@ -103,7 +103,7 @@
 
   .boxcard figure img {
     /*all img of Restaurant*/
-    width: 100.7%;
+    width: 100.9%;
     height: 300px;
   }
 
@@ -135,7 +135,7 @@
     width: 90px;
     font-size: 1.3rem;
     position: absolute;
-    bottom: 720px;
+    bottom: 290px;
     right: 8px;
   }
 

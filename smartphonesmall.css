@@ -1,4 +1,4 @@
-@media screen and (min-width: 310px) and (max-width: 320px) {
+@media screen and (min-width: 311px) and (max-width: 323px) {
   #ReserveExplore h2 {
     font-size: 1.5rem;
     width: 95%;
@@ -18,16 +18,16 @@
     margin-left: 20%;
   }
   .BoutonExplore a {
-    font-size: 1.1rem;
-    width: 400px; /*all buton Explore lien*/
+    font-size: 1rem; /*all buton Explore lien*/
     text-align: center;
   }
 
   .BoutonExplore {
-    width: 70%;
     text-align: center;
     position: relative;
-    right: 20px;
+    left: 47px;
+    top: 30px;
+    width: 60%;
   }
 
   .fa-mobile-alt:before,
@@ -63,7 +63,7 @@
     color: rgb(53, 53, 53);
   }
 
-  .ms-Button {
+  .nouveau {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
@@ -71,7 +71,7 @@
     padding: 6px 15px;
     position: absolute;
     right: 0.2px;
-    bottom: 240px;
+    bottom: 228px;
     border: transparent;
     font-size: 1rem;
   }
@@ -106,7 +106,8 @@
     width: 70%;
     text-align: center;
     position: relative;
-    right: 20px;
+    top: 20px;
+    left: 25px;
   }
 
   .fa-mobile-alt:before,
@@ -142,7 +143,7 @@
     color: rgb(53, 53, 53);
   }
 
-  .ms-Button {
+  .nouveau {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
@@ -150,7 +151,7 @@
     padding: 6px 15px;
     position: absolute;
     right: 0.2px;
-    bottom: 240px;
+    bottom: 230px;
     border: transparent;
     font-size: 1rem;
   }
