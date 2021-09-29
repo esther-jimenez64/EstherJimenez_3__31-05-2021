@@ -128,33 +128,50 @@
   }
   /***Section Fonctionnement***/
   #Fonctionnement h2 {
-    font-family: "Roboto-Bold.ttf"; /*Titre Fonctionnement*/
-    margin-top: 5%;
-    font-size: 2.4rem;
+    font-family: "Roboto-Bold.ttf";
     position: relative;
-    left: 47%;
+    top: 200px;
+    right: 200px;
   }
 
   #Fonctionnement {
-    background-color: transparent; /*div englobante*/
+    background-color: transparent;
     display: flex;
+    justify-content: normal;
+    width: 20%; /*div englobante*/
     position: relative;
-    right: 100px;
+    right: 19%;
+    top: 100px;
   }
+
+  .BoutonTitre {
+    border-radius: 30px 20px 20px 30px;
+    box-shadow: #d1d1d1 5px 5px 5px;
+    background-color: rgb(243, 243, 243);
+    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+    height: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 110%;
+    justify-content: center;
+  }
+
   .BoutonNumero {
     border-radius: 50%;
     background-color: #9356dc;
     color: white; /*All Button Number*/
     padding: 3px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 18px;
     height: 35px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Roboto-Bold.ttf";
-    position: relative;
-    top: 265px;
-    right: 145px;
     width: 10px;
     display: flex;
     z-index: 1;
@@ -162,53 +179,30 @@
     cursor: pointer;
   }
 
-  .BoutonTitre {
-    border-radius: 30px 20px 20px 30px;
-    box-shadow: #d1d1d1 5px 5px 5px; /*all cards of foctionnement*/
-    background-color: rgb(243, 243, 243);
-    padding: 70px;
-    width: 100%;
-    height: 50px;
-    cursor: pointer;
-    position: relative;
-    top: 200px;
-    right: 188px;
-  }
-
   #Fonctionnement a {
     text-decoration: none;
     color: black;
-    font-family: "Roboto-Bold.ttf"; /*tout les a de fonctionnement*/
+    font-family: "Roboto-Bold.ttf";
     cursor: pointer;
-    font-size: 1.2rem;
-  }
-  .fa-mobile-alt:before,
-.fa-list:before,     /*icon*/
-.fa-store:before {
-    color: rgb(88, 88, 88);
-    font-size: 1.5rem;
-    z-index: 2;
-  }
-  .fa-mobile-alt:before {
-    /*icon mobil bouger*/
+    font-size: 1.1rem;
+    padding-top: 50px;
     position: relative;
+    top: 10%;
+    left: 3%;
   }
+
   .SurvolIcon {
     position: relative;
-    right: 450px;
-    top: 320px;
+    right: 155%;
+    top: 92px;
+    font-size: 1.8rem;
   }
-  .SurvolIcon:hover .fa-store:before,
-  .SurvolIcon:hover .fa-list:before,
-  .SurvolIcon:hover .fa-mobile-alt:before {
-    /*icon au survol*/
-    color: #9356dc;
-  }
+
   /***Section Restaurant***/
 
   #Restaurant {
     position: relative;
-    top: 310px;
+    top: 170px;
     margin-right: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -222,9 +216,8 @@
   }
   .cards {
     /*positionnement des card et flex*/
-    flex: 1 1;
-    display: grid;
-    grid-template-columns: 500px;
+    flex: 1 1 40%;
+    margin: 1%;
   }
 
   .boxcard figure img {
@@ -237,7 +230,7 @@
   .boxcard figure {
     height: 370px;
     margin-bottom: 0px;
-    width: 98%;
+    width: 97%;
   } /* all figure of Restaurant*/
 
   figure {
