@@ -269,15 +269,11 @@
     font-size: 1rem;
   }
   /***Footer***/
-  /***Footer***/
+
   footer {
-    background-color: rgb(51, 51, 51); /*background de footer*/
-    padding-top: 8px;
-    padding-bottom: 1px;
-    margin-top: 50px;
-    height: 200px;
-    position: absolute;
-    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+    margin-top: 40px;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
@@ -285,52 +281,23 @@
     margin-top: 5%;
     margin-left: 6%;
     color: rgba(235, 235, 235, 0.897);
+    text-decoration: none;
   }
-  footer a {
+
+  .footerText a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
-  footer img {
-    width: 30%; /*logo ho my food blanc*/
-    position: relative;
-    top: 20px;
-    left: 6%;
-  }
-  #menuFin li {
-    position: relative; /*les li de Footer*/
-    top: 1px;
-    right: 30px;
-    list-style: none;
-    justify-content: flex-start;
-    margin: 5px;
-  }
-  .SecondMenue li {
-    list-style: none;
-    margin: 2%;
-    position: absolute; /*les li de Footer 2*/
-    left: 17px;
-    top: 118px;
-  }
-  .SecondMenue :nth-child(2) {
-    /*Contact footer*/
-    position: absolute;
-    top: 150px;
-    left: 23px;
+
+  footer a {
+    text-decoration: none;
   }
 
-  .fa-utensils:before {
-    font-size: 0.7rem; /*icon fourchette*/
-    position: relative;
-    bottom: 60px;
-    left: 15px;
+  .ustensils {
+    padding: 0 15px 0 5px;
   }
-  .fa-hands-helping:before  /*icon main */ {
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 35px;
-    left: 2px;
-  }
-  #menuFin {
-    margin-left: 5%; /*div englobante*/
+
+  .hands {
+    padding-right: 14px;
   }
 }

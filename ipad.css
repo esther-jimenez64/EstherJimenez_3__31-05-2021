@@ -149,49 +149,33 @@
   /***footer**/
 
   footer {
-    padding-bottom: 95px; /*taille du background footer*/
+    height: 230px;
+    padding-top: 1px;
+    margin-top: 40px;
   }
-
   footer h3 {
-    /*logo oh my food*/
-    font-size: 2rem;
+    font-family: "Shrikhand-Regular.ttf";
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left: 6%;
+    color: rgba(235, 235, 235, 0.897);
+    text-decoration: none;
   }
 
-  #menuFin li {
-    /*les li de Footer*/
-    font-size: 1.3rem;
-  }
-  .SecondMenue li {
-    /*les li de Footer 2*/
-    font-size: 1.3rem;
-    position: relative;
-    right: 3%;
+  .footerText a {
+    text-decoration: none; /*tout les paragraphe cliquable*/
+    color: white;
   }
 
-  .SecondMenue :nth-child(2) {
-    /*Contact footer*/
-    position: relative;
-    bottom: 50px;
-    left: 30px;
-    font-size: 1.3rem;
+  footer a {
+    text-decoration: none;
   }
 
-  .fa-utensils:before {
-    /*icon fourchette*/
-    font-size: 1.2rem;
-    position: relative;
-    left: 32px;
-    bottom: 72px;
-  }
-  .fa-hands-helping:before  /*icon main */ {
-    font-size: 1.2rem;
-    position: relative;
-    bottom: 40px;
+  .ustensils {
+    padding: 0 15px 0 5px;
   }
 
-  .fa,  /*icon main qui ne veut pas bouger bouge les 2 icon*/
-  .fas {
-    position: relative;
-    right: 2%;
+  .hands {
+    padding-right: 14px;
   }
 }

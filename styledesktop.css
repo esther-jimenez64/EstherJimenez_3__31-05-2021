@@ -127,38 +127,37 @@
     bottom: 5px;
   }
   /***Section Fonctionnement***/
-  #Fonctionnement h2 {
-    font-family: "Roboto-Bold.ttf";
-    position: relative;
-    top: 200px;
-    right: 200px;
+  #Fonctionnement {
+    margin: 3rem 1%;
+    margin-right: 0;
   }
 
-  #Fonctionnement {
-    background-color: transparent;
+  #Fonctionnement h2 {
+    font-family: "Roboto-Bold.ttf";
+    font-size: 3rem;
+    margin-left: 36%;
+    margin-top: 5%;
+    margin-bottom: 3rem;
+  }
+
+  .ContourFonctionnement {
     display: flex;
-    justify-content: normal;
-    width: 20%; /*div englobante*/
-    position: relative;
-    right: 19%;
-    top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1px;
   }
 
   .BoutonTitre {
     border-radius: 30px 20px 20px 30px;
     box-shadow: #d1d1d1 5px 5px 5px;
     background-color: rgb(243, 243, 243);
-    padding: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    margin-bottom: 0;
-    padding-top: 10px;
-    height: 100px;
-    padding-bottom: 50px;
+    height: 150px;
+    cursor: pointer;
     display: flex;
-    width: 110%;
+    width: 22%;
     justify-content: center;
+    margin-left: 0;
+    padding-top: 52px;
   }
 
   .BoutonNumero {
@@ -173,9 +172,8 @@
     font-size: 1.2rem;
     font-family: "Roboto-Bold.ttf";
     width: 10px;
-    display: flex;
     z-index: 1;
-    align-content: flex-start;
+    margin-bottom: 8%;
     cursor: pointer;
   }
 
@@ -192,17 +190,17 @@
   }
 
   .SurvolIcon {
+    font-size: 4rem;
     position: relative;
-    right: 155%;
-    top: 92px;
-    font-size: 1.8rem;
+    right: 205px;
+    bottom: 20px;
   }
 
   /***Section Restaurant***/
 
   #Restaurant {
     position: relative;
-    top: 170px;
+    top: 70px;
     margin-right: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -290,8 +288,8 @@
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 30px;
-    margin-top: 390px;
+    padding-bottom: 1px;
+    margin-top: 170px;
     margin-bottom: 0;
     height: 230px;
     position: absolute;
@@ -303,52 +301,10 @@
     margin-left: 2%;
     color: rgba(235, 235, 235, 0.897);
     font-size: 2rem;
+    margin-bottom: 1%;
   }
-  footer a {
-    text-decoration: none; /*tout les paragraphe cliquable*/
-    color: white;
-  }
-  #menuFin li {
-    /*les li de Footer*/
-    margin-right: 10%;
-    list-style: none;
-    justify-content: flex-start;
-    margin: 0.5%;
-    font-size: 1.2rem;
-  }
-  .SecondMenue li {
-    list-style: none;
-    margin: 2%;
-    /*les li de Footer 2*/
-    bottom: 59px;
-    right: 3%;
-    font-size: 1.1rem;
-  }
-  .SecondMenue {
-    height: 0px;
-  }
-  .SecondMenue :nth-child(2) {
-    /*Contact footer*/
 
-    bottom: 80px;
-    left: 1.5%;
-    font-size: 1.2rem;
-  }
-  .fa-utensils:before {
-    /*icon fourchette*/
-    position: relative;
-    bottom: 69px;
-    left: 25px;
-    font-size: 0.9rem;
-  }
-  .fa-hands-helping:before  /*icon main */ {
-    position: relative;
-    bottom: 39px;
-    left: 7px;
-    font-size: 0.9rem;
-  }
-  #menuFin {
-    margin-left: 5%; /*div englobante*/
-    margin-bottom: 0px;
+  footer a {
+    text-decoration: none;
   }
 }

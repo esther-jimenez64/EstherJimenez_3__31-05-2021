@@ -27,7 +27,7 @@
     url("fontfamily/Roboto-Bold.ttf") format("svg");
 }
 body {
-  margin: 0;
+  margin: 0 0 0 0;
 }
 /**Header**/
 #logo img {
@@ -271,12 +271,9 @@ figcaption :nth-child(2) {
 /***Footer***/
 footer {
   background-color: rgb(51, 51, 51); /*background de footer*/
-  padding-top: 8px;
-  padding-bottom: 1px;
-  margin-top: 50px;
-  height: 200px;
-  position: absolute;
+  padding-top: 2rem;
   width: 100%;
+  height: 400px;
 }
 footer h3 {
   font-family: "Shrikhand-Regular.ttf";
@@ -285,50 +282,27 @@ footer h3 {
   margin-left: 6%;
   color: rgba(235, 235, 235, 0.897);
 }
-footer a {
+
+.footerText a {
   text-decoration: none; /*tout les paragraphe cliquable*/
   color: white;
 }
-footer img {
-  width: 30%; /*logo ho my food blanc*/
-  position: relative;
-  top: 20px;
-  left: 6%;
-}
-#menuFin li {
-  position: relative; /*les li de Footer*/
-  top: 1px;
-  right: 30px;
-  list-style: none;
-  justify-content: flex-start;
-  margin: 5px;
-}
-.SecondMenue li {
-  list-style: none;
-  margin: 2%;
-  position: absolute; /*les li de Footer 2*/
-  left: 17px;
-  top: 118px;
-}
-.SecondMenue :nth-child(2) {
-  /*Contact footer*/
-  position: absolute;
-  top: 150px;
-  left: 23px;
+
+.footerText {
+  margin-left: 2%;
+  color: white;
+  line-height: 200%;
+  font-size: 18px;
 }
 
-.fa-utensils:before {
-  font-size: 0.7rem; /*icon fourchette*/
-  position: relative;
-  bottom: 60px;
-  left: 15px;
+.footerBlock {
+  display: flex;
 }
-.fa-hands-helping:before  /*icon main */ {
-  font-size: 0.7rem;
-  position: relative;
-  bottom: 35px;
-  left: 2px;
+
+.ustensils {
+  padding: 0 25px 0 5px;
 }
-#menuFin {
-  margin-left: 5%; /*div englobante*/
+
+.hands {
+  padding-right: 20px;
 }
