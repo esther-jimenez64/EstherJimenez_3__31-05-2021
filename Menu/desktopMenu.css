@@ -1,4 +1,4 @@
-@media screen and (min-width: 772px) and (max-width: 1900px) {
+@media screen and (min-width: 1024px) and (max-width: 1900px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -79,10 +79,11 @@
   .entre {
     position: relative;
     top: 90px; /*class englobante pour bouger les cards*/
-    right: 24.5%;
-    margin-left: 5%;
+    right: 26%;
+    margin-left: 17%;
     margin-bottom: 40px;
     margin-bottom: 20px;
+    width: 200%;
   }
 
   .entre a {
@@ -116,8 +117,8 @@
     box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;
-    width: 100%;
-    margin-left: 2%;
+    width: 215%;
+    margin-left: 20%;
   }
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
@@ -125,6 +126,7 @@
     position: relative;
     bottom: 24px;
     left: 83%;
+    z-index: 1;
   }
 
   .backgroundCards p {
