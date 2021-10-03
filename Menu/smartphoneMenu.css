@@ -57,7 +57,7 @@
     margin-left: 5%;
     z-index: 1;
     display: flex;
-    position: absolute;
+    position: relative;
     bottom: 1.5rem;
   }
 
@@ -117,10 +117,9 @@
     box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;
-    width: 100%;
+    width: 100ù;
     margin-left: 2%;
     margin-bottom: 20px;
-    height: 500px;
   }
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
@@ -172,7 +171,7 @@
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
     padding-bottom: 0px;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-bottom: 0;
     height: 210px;
     width: 100%;

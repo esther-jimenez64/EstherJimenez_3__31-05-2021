@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 1203px) and (max-width: 1900px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -39,47 +39,57 @@
 
   .FlecheIcon  /*move Icon arrow*/ {
     position: relative;
-    bottom: 20px;
+    bottom: 55px;
     left: 7%;
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
 
   #photoBackground img {
     /*dimension image */
-    width: 374px;
-    height: 280px;
+    width: 100%;
+    height: 950px;
   }
 
-  /***Section La palette du goût***/
+  /***Section À la française***/
 
-  #blockMenu h2 {
-    font-family: "shrikhand", sans-serif; /*titre La note enchantée*/
+  h2 {
+    font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
     margin-left: 5%;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    bottom: 1.3rem;
+    right: 2rem;
+    font-size: 2rem;
   }
-
   .fa-heart:before {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     color: rgb(36, 36, 36);
-    position: relative; /*Icon heart*/
-    bottom: 48px;
-    left: 320px;
+    position: absolute; /*Icon heart*/
+    top: 40px;
+    right: 4.8%;
   }
 
   #blockMenu {
     background-color: rgba(238, 238, 238, 0.993);
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     padding-top: 20px;
-    height: 1210px; /*id qui englobe toute la section plat */
-    width: 378px;
+    height: 1120px; /*id qui englobe toute la section plat */
+    width: 100%;
     position: relative;
-    bottom: 40px;
+    bottom: 138px;
+    display: flex;
+    height: 500px;
   }
   /*Cards*/
   .entre {
     position: relative;
-    bottom: 25px; /*class englobante pour bouger les cards*/
-    margin-left: 5%;
+    top: 90px; /*class englobante pour bouger les cards*/
+    right: 18.5%;
+    margin-left: 17%;
     margin-bottom: 40px;
+    margin-bottom: 20px;
+    width: 200%;
   }
 
   .entre a {
@@ -95,10 +105,13 @@
     font-weight: 200;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 100%;
+    position: relative;
+    left: 95%;
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
-    width: 5rem;
+    width: 20%;
     padding-bottom: 5px; /*les titre de section au survol*/
   }
   .backgroundCards :first-child {
@@ -110,11 +123,11 @@
     border-radius: 15px 15px 15px 15px;
     background-color: rgb(243, 243, 243);
     box-shadow: #ddddddee 8px 8px 8px 8px;
-    padding: 10px;
+    padding: 20px;
     height: 55px;
-    width: 330px;
-    margin-left: 2%;
-    margin-bottom: 20px;
+    width: 175%;
+    margin-left: 20%;
+    margin-bottom: 5%;
   }
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
@@ -122,6 +135,8 @@
     position: relative;
     bottom: 24px;
     left: 83%;
+    z-index: 1;
+    font-size: 1.1rem;
   }
 
   .backgroundCards p {
@@ -136,7 +151,7 @@
   /***Section Commander****/
 
   .BoutonExplore a {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     width: 400px;
     text-decoration: none;
     color: white;
@@ -153,30 +168,31 @@
       #9356dc 100%
     ); /* le background du bouton recherche   */
     height: 20px;
-    width: 150px;
+    width: 30%;
     text-align: center;
-    padding: 17px;
-    margin-left: 25%;
-    margin-top: 8%;
+    padding: 25px;
+    margin-left: 34%;
+    margin-bottom: 5%;
   }
 
   /***Footer***/
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 0px;
-    margin-top: 80px;
+    padding-bottom: 47px;
+    margin-top: 100px;
     margin-bottom: 0;
-    height: 210px;
+    height: 220px;
     width: 100%;
     position: absolute;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-left: 6%;
+    margin-top: 2%;
+    margin-left: 2%;
     color: rgba(235, 235, 235, 0.897);
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 1%;
   }
 
@@ -191,10 +207,9 @@
     border: transparent;
   }
   .footerText {
-    margin-left: 6%;
-    margin-top: 3%;
+    margin-left: 2%;
     color: white;
-    line-height: 150%;
+    line-height: 200%;
     font-size: 18px;
   }
 
@@ -203,10 +218,10 @@
   }
 
   .ustensils {
-    padding: 0 15px 0 5px;
+    padding: 0 25px 0 5px;
   }
 
   .hands {
-    padding-right: 15px;
+    padding-right: 20px;
   }
 }
