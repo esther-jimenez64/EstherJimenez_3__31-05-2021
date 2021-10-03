@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1900px) {
+@media screen and (min-width: 1203px) and (max-width: 1900px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -39,9 +39,9 @@
 
   .FlecheIcon  /*move Icon arrow*/ {
     position: relative;
-    bottom: 20px;
+    bottom: 55px;
     left: 7%;
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
 
   #photoBackground img {
@@ -52,34 +52,40 @@
 
   /***Section À la française***/
 
-  #blockMenu h2 {
+  h2 {
     font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
     margin-left: 5%;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    bottom: 1.3rem;
+    right: 2rem;
+    font-size: 2rem;
   }
-
   .fa-heart:before {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     color: rgb(36, 36, 36);
     position: absolute; /*Icon heart*/
     top: 40px;
-    right: 10%;
+    right: 4.8%;
   }
 
   #blockMenu {
     background-color: rgba(238, 238, 238, 0.993);
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     padding-top: 20px;
     height: 1120px; /*id qui englobe toute la section plat */
     width: 100%;
     position: relative;
-    bottom: 40px;
+    bottom: 138px;
     display: flex;
+    height: 500px;
   }
   /*Cards*/
   .entre {
     position: relative;
     top: 90px; /*class englobante pour bouger les cards*/
-    right: 26%;
+    right: 18.5%;
     margin-left: 17%;
     margin-bottom: 40px;
     margin-bottom: 20px;
@@ -100,10 +106,12 @@
     margin-bottom: 30px;
     margin-top: 30px;
     width: 100%;
+    position: relative;
+    left: 95%;
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
-    width: 8%;
+    width: 20%;
     padding-bottom: 5px; /*les titre de section au survol*/
   }
   .backgroundCards :first-child {
@@ -115,10 +123,11 @@
     border-radius: 15px 15px 15px 15px;
     background-color: rgb(243, 243, 243);
     box-shadow: #ddddddee 8px 8px 8px 8px;
-    padding: 10px;
+    padding: 20px;
     height: 55px;
-    width: 215%;
+    width: 175%;
     margin-left: 20%;
+    margin-bottom: 5%;
   }
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
@@ -127,6 +136,7 @@
     bottom: 24px;
     left: 83%;
     z-index: 1;
+    font-size: 1.1rem;
   }
 
   .backgroundCards p {
@@ -141,7 +151,7 @@
   /***Section Commander****/
 
   .BoutonExplore a {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     width: 400px;
     text-decoration: none;
     color: white;
@@ -158,70 +168,60 @@
       #9356dc 100%
     ); /* le background du bouton recherche   */
     height: 20px;
-    width: 150px;
+    width: 30%;
     text-align: center;
-    padding: 17px;
-    margin-left: 30%;
-    margin-top: 5%;
+    padding: 25px;
+    margin-left: 34%;
+    margin-bottom: 5%;
   }
 
   /***Footer***/
-
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 1px;
-    margin-top: 80px;
-    height: 200px;
+    padding-bottom: 47px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    height: 220px;
+    width: 100%;
+    position: absolute;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 5%; /*titre ho my food*/
-    margin-left: 6%;
-    color: rgba(255, 255, 255, 0.74);
+    margin-top: 2%;
+    margin-left: 2%;
+    color: rgba(235, 235, 235, 0.897);
+    font-size: 2rem;
+    margin-bottom: 1%;
   }
-  footer h3:hover {
-    border-bottom: transparent;
-  }
-  footer a {
+
+  .footerText a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
 
-  #menuFin li {
-    position: relative; /*les li de Footer*/
-    top: 1px;
-    right: 7%;
-    list-style: none;
-    justify-content: flex-start;
-    margin: 2%;
+  .footer a,
+  footer a :hover {
+    text-decoration: none;
+    border: transparent;
   }
-  .SecondMenue li {
-    list-style: none;
-    margin: 2%;
-    position: relative; /*les li de Footer 2*/
-    bottom: 40px;
-    right: 7%;
+  .footerText {
+    margin-left: 2%;
+    color: white;
+    line-height: 200%;
+    font-size: 18px;
   }
-  .SecondMenue :nth-child(2) {
-    position: relative; /*Contact footer*/
-    bottom: 50px;
-    left: 6%;
+
+  .footerBlock {
+    display: flex;
   }
-  .fa-utensils:before {
-    font-size: 0.7rem; /*icon fourchette*/
-    position: relative;
-    bottom: 60px;
-    left: 25px;
+
+  .ustensils {
+    padding: 0 25px 0 5px;
   }
-  .fa-hands-helping:before  /*icon main */ {
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 35px;
-    left: 10px;
-  }
-  #menuFin {
-    margin-left: 5%; /*div englobante*/
+
+  .hands {
+    padding-right: 20px;
   }
 }

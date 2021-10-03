@@ -304,7 +304,19 @@
     margin-bottom: 1%;
   }
 
+  .footerText {
+    line-height: 150%;
+  }
+
   footer a {
     text-decoration: none;
+  }
+
+  .ustensils {
+    padding: 0 15px 0 5px;
+  }
+
+  .hands {
+    padding-right: 15px;
   }
 }

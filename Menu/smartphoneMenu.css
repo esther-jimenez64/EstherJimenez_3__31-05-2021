@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 1023px) {
+@media screen and (min-width: 320px) and (max-width: 1202px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -52,16 +52,20 @@
 
   /***Section À la française***/
 
-  #blockMenu h2 {
+  h2 {
     font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
     margin-left: 5%;
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    bottom: 1.5rem;
   }
 
   .fa-heart:before {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: rgb(36, 36, 36);
     position: absolute; /*Icon heart*/
-    top: 40px;
+    top: 33px;
     right: 10%;
   }
 
@@ -72,14 +76,15 @@
     height: 1120px; /*id qui englobe toute la section plat */
     width: 100%;
     position: relative;
-    bottom: 40px;
+    bottom: 105px;
   }
   /*Cards*/
   .entre {
     position: relative;
-    bottom: 25px; /*class englobante pour bouger les cards*/
+    top: 25px; /*class englobante pour bouger les cards*/
     margin-left: 5%;
     margin-bottom: 40px;
+    justify-content: space-between;
   }
 
   .entre a {
@@ -112,9 +117,10 @@
     box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;
-    width: 100ù;
+    width: 100%;
     margin-left: 2%;
     margin-bottom: 20px;
+    height: 500px;
   }
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
@@ -152,71 +158,62 @@
       #ff79da 0%,
       #9356dc 100%
     ); /* le background du bouton recherche   */
-    height: 20px;
-    width: 150px;
+    height: 24px;
+    width: 45%;
     text-align: center;
     padding: 17px;
-    margin-left: 30%;
-    margin-top: 5%;
+    margin-left: 25%;
+    position: relative;
+    bottom: 2rem;
   }
 
   /***Footer***/
-
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 1px;
-    margin-top: 80px;
-    height: 200px;
+    padding-bottom: 0px;
+    margin-top: 70px;
+    margin-bottom: 0;
+    height: 210px;
+    width: 100%;
+    position: absolute;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 5%; /*titre ho my food*/
     margin-left: 6%;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(235, 235, 235, 0.897);
+    font-size: 1.4rem;
+    margin-bottom: 1%;
   }
-  footer h3:hover {
-    border-bottom: transparent;
-  }
-  footer a {
+
+  .footerText a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
 
-  #menuFin li {
-    position: relative; /*les li de Footer*/
-    top: 1px;
-    right: 7%;
-    list-style: none;
-    justify-content: flex-start;
-    margin: 2%;
+  .footer a,
+  footer a :hover {
+    text-decoration: none;
+    border: transparent;
   }
-  .SecondMenue li {
-    list-style: none;
-    margin: 2%;
-    position: relative; /*les li de Footer 2*/
-    bottom: 40px;
-    right: 7%;
+  .footerText {
+    margin-left: 6%;
+    margin-top: 3%;
+    color: white;
+    line-height: 150%;
+    font-size: 18px;
   }
-  .SecondMenue :nth-child(2) {
-    position: relative; /*Contact footer*/
-    bottom: 50px;
-    left: 6%;
+
+  .footerBlock {
+    display: flex;
   }
-  .fa-utensils:before {
-    font-size: 0.7rem; /*icon fourchette*/
-    position: relative;
-    bottom: 60px;
-    left: 25px;
+
+  .ustensils {
+    padding: 0 15px 0 5px;
   }
-  .fa-hands-helping:before  /*icon main */ {
-    font-size: 0.7rem;
-    position: relative;
-    bottom: 35px;
-    left: 10px;
-  }
-  #menuFin {
-    margin-left: 5%; /*div englobante*/
+
+  .hands {
+    padding-right: 15px;
   }
 }
