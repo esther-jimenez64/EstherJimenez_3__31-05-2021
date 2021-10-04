@@ -108,7 +108,7 @@
     position: relative;
     right: 5%; /*position et class englobante des cards*/
     border-radius: 15px 15px 15px 15px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
     box-shadow: #ddddddee 8px 8px 8px 8px;
     padding: 10px;
     height: 55px;

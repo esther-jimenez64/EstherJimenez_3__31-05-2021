@@ -71,7 +71,7 @@
   }
 
   #blockMenu {
-    background-color: rgba(238, 238, 238, 0.993);
+    background-color: rgba(245, 245, 245, 0.993);
     border-radius: 50px 50px 0px 0px;
     padding-top: 20px;
     height: 1120px; /*id qui englobe toute la section plat */
@@ -121,8 +121,8 @@
     position: relative;
     right: 5%; /*position et class englobante des cards*/
     border-radius: 15px 15px 15px 15px;
-    background-color: rgb(243, 243, 243);
-    box-shadow: #ddddddee 8px 8px 8px 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: #eeeeeeee 8px 8px 8px 8px;
     padding: 20px;
     height: 55px;
     width: 175%;
