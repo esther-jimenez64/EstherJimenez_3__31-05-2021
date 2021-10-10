@@ -173,6 +173,19 @@
     padding: 25px;
     margin-left: 34%;
     margin-bottom: 5%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 
   /***Footer***/

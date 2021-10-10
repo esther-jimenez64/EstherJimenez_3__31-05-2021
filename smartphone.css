@@ -109,6 +109,9 @@
     position: absolute;
     right: 16%;
     margin-top: 20px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
   }
   .BoutonExplore a {
     font-size: 1.1rem;
@@ -118,6 +121,16 @@
     font-family: "Roboto-Bold.ttf";
     cursor: pointer;
     text-align: center;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
   /***Section Fonctionnement***/
 
@@ -151,6 +164,7 @@
     display: flex;
     align-content: flex-start;
     cursor: pointer;
+    z-index: 1;
   }
 
   .BoutonTitre {
@@ -162,6 +176,13 @@
     width: 80%;
     margin-left: 4%;
     margin-bottom: 0;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonTitre:hover {
+    background: rgba(235, 235, 235, 0.993);
   }
 
   .fa-mobile-alt:before,
@@ -212,7 +233,6 @@
     width: 94%;
     height: 275px;
     margin-bottom: 0px;
-    text-overflow: hidden;
   } /* all figure of Restaurant*/
   figure {
     margin-left: 8%; /*position of restaurant cards*/
@@ -272,32 +292,36 @@
 
   footer {
     height: 220px;
-    padding-top: 20px;
-    margin-top: 40px;
-  }
-  footer h3 {
-    font-family: "Shrikhand-Regular.ttf";
-    font-weight: lighter;
-    margin-top: 5%;
-    margin-left: 6%;
-    color: rgba(235, 235, 235, 0.897);
-    text-decoration: none;
+    padding-top: 2%;
+    margin-top: 30px;
   }
 
+  .footerText {
+    margin-left: 35px;
+  }
+
+  footer h3 {
+    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+  }
   .footerText a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
   }
 
   footer a {
+    /*enlever la décoration par défaut*/
     text-decoration: none;
   }
 
   .ustensils {
+    /*icon ustensils de cuisine*/
     padding: 0 15px 0 5px;
   }
 
   .hands {
+    /*icon main*/
     padding-right: 14px;
   }
 }

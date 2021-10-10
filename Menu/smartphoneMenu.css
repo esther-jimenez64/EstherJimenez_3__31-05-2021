@@ -124,16 +124,25 @@
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
     color: rgb(68, 68, 68);
-    position: relative;
-    bottom: 24px;
-    left: 83%;
   }
 
   .backgroundCards p {
     /*espace entre les p*/
     margin: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
+  .numero {
+    display: flex;
+    align-items: center; /*position des prix*/
+    justify-content: flex-end;
+    position: relative;
+    bottom: 27px;
+    right: 15px;
+    z-index: 1;
+  }
   .tailleP {
     font-size: 0.9rem; /*taille des p qui depasser le prix*/
   }
@@ -164,6 +173,19 @@
     margin-left: 25%;
     position: relative;
     bottom: 2rem;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 
   /***Footer***/
@@ -393,8 +415,20 @@
     margin-left: 25%;
     position: relative;
     bottom: 2rem;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
   }
 
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+  }
   /***Footer***/
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
@@ -422,10 +456,12 @@
 
   .footer a,
   footer a :hover {
+    /*enlever la décoration par défaut */
     text-decoration: none;
     border: transparent;
   }
   .footerText {
+    /*tout les titre footer*/
     margin-left: 6%;
     margin-top: 3%;
     color: white;
@@ -434,14 +470,17 @@
   }
 
   .footerBlock {
+    /*bouger tout les titre*/
     display: flex;
   }
 
   .ustensils {
-    padding: 0 15px 0 5px;
+    /*icon ustensils*/
+    padding: 0 12px 0 5px;
   }
 
   .hands {
-    padding-right: 15px;
+    /*icon mains*/
+    padding-right: 12px;
   }
 }

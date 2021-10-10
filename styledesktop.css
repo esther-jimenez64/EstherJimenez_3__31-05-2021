@@ -75,6 +75,7 @@
     font-size: 29px;
   }
   /***Section explore et reserve***/
+
   #ReserveExplore {
     background-color: rgb(245, 245, 245);
     padding-top: 1%; /*background de la div*/
@@ -87,6 +88,7 @@
     font-family: "roboto", sans-serif; /*titre reservation*/
     font-weight: bold;
     margin-left: 3%;
+    margin-top: 5%;
   }
 
   #ReserveExplore p {
@@ -148,6 +150,7 @@
   }
 
   .BoutonTitre {
+    /*background et forme des cards fonctionnement*/
     border-radius: 30px 20px 20px 30px;
     box-shadow: #d1d1d1 5px 5px 5px;
     background-color: rgb(243, 243, 243);
@@ -158,9 +161,17 @@
     justify-content: center;
     margin-left: 0;
     padding-top: 30px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonTitre:hover {
+    background: rgba(235, 235, 235, 0.993);
   }
 
   .BoutonNumero {
+    /*background et forme des numéro*/
     border-radius: 50%;
     background-color: #9356dc;
     color: white; /*All Button Number*/
@@ -175,9 +186,11 @@
     z-index: 1;
     margin-bottom: 7%;
     cursor: pointer;
+    z-index: 1;
   }
 
   #Fonctionnement a {
+    /*tout les titre dans fonctionnment*/
     text-decoration: none;
     color: black;
     font-family: "Roboto-Bold.ttf";
@@ -190,15 +203,17 @@
   }
 
   .SurvolIcon {
+    /*bouger les icon*/
     font-size: 4rem;
     position: relative;
-    right: 239px;
+    right: 245px;
     bottom: 20px;
   }
 
   /***Section Restaurant***/
 
   #Restaurant {
+    /*toute la section*/
     position: relative;
     top: 70px;
     margin-right: 0px;
@@ -220,7 +235,7 @@
 
   .boxcard figure img {
     object-fit: cover; /*all img of Restaurant*/
-    width: 100%;
+    width: 101%;
     height: 280px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -228,7 +243,7 @@
   .boxcard figure {
     height: 370px;
     margin-bottom: 0px;
-    width: 97%;
+    width: 96%;
   } /* all figure of Restaurant*/
 
   figure {
@@ -277,7 +292,7 @@
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
     position: relative;
-    left: 72%;
+    left: 79%;
     bottom: 420px;
     padding: 15px 25px;
     border: transparent;
@@ -291,7 +306,7 @@
     padding-bottom: 1px;
     margin-top: 170px;
     margin-bottom: 0;
-    height: 230px;
+    height: 210px;
     position: absolute;
   }
   footer h3 {
@@ -305,18 +320,22 @@
   }
 
   .footerText {
+    /*tout les titres de footer*/
     line-height: 150%;
   }
 
   footer a {
+    /*enlever la decoration par défaut */
     text-decoration: none;
   }
 
   .ustensils {
+    /*icon ustensils de cuisine*/
     padding: 0 15px 0 5px;
   }
 
   .hands {
+    /*icon mains*/
     padding-right: 15px;
   }
 }

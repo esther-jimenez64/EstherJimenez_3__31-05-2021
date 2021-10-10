@@ -108,6 +108,9 @@ body {
   position: absolute;
   right: 16%;
   margin-top: 20px;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
 }
 .BoutonExplore a {
   font-size: 1.1rem;
@@ -117,6 +120,16 @@ body {
   font-family: "Roboto-Bold.ttf";
   cursor: pointer;
   text-align: center;
+}
+
+.BoutonExplore:hover {
+  transform: scale(1.15);
+  background: radial-gradient(
+    ellipse farthest-corner at 20px 0,
+    #ff79da 0%,
+    #b195d4 100%
+  );
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 /***Section Fonctionnement***/
 
@@ -211,7 +224,6 @@ body {
   width: 94%;
   height: 275px;
   margin-bottom: 0px;
-  text-overflow: hidden;
 } /* all figure of Restaurant*/
 figure {
   margin-left: 8%; /*position of restaurant cards*/
@@ -288,6 +300,7 @@ footer h3 {
 }
 
 .footerText {
+  /*tout les titres footer*/
   margin-left: 2%;
   color: white;
   line-height: 200%;
@@ -295,13 +308,16 @@ footer h3 {
 }
 
 .footerBlock {
+  /*bouger toute la structure*/
   display: flex;
 }
 
 .ustensils {
+  /*icon ustensils*/
   padding: 0 25px 0 5px;
 }
 
 .hands {
+  /*icon mains*/
   padding-right: 20px;
 }

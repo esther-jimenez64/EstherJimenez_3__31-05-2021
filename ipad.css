@@ -51,11 +51,23 @@
     left: 27%;
     padding: 35px;
     width: 40%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
   }
   .BoutonExplore a {
     /*all buton Explore lien et police*/
     font-size: 1.5rem;
     padding-top: 10px;
+  }
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
   /***Section Foctionnement***/
   #Fonctionnement h2 {
@@ -67,15 +79,28 @@
     width: 88%;
     height: 50px;
     cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonTitre:hover {
+    background: rgba(235, 235, 235, 0.993);
   }
   .BoutonNumero {
     /*button number*/
-    padding: 18px;
     font-size: 1.2rem;
     position: relative;
-    top: 85px;
+    top: 81px;
+    left: 0.2rem;
+    z-index: 1;
+    width: 30px;
+    height: 40px;
   }
-
+  .BoutonNumero p {
+    text-align: center;
+    margin: 9px;
+  }
   #Fonctionnement a {
     /*tout les a de fonctionnement et le taille de police*/
     font-size: 1.4rem;
@@ -156,10 +181,20 @@
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 6%;
     color: rgba(235, 235, 235, 0.897);
     text-decoration: none;
+  }
+
+  .footerText {
+    margin-left: 35px;
+  }
+
+  footer h3 {
+    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
   }
 
   .footerText a {
@@ -168,14 +203,17 @@
   }
 
   footer a {
+    /*enlever la décoration par défaut*/
     text-decoration: none;
   }
 
   .ustensils {
+    /*icon unstensils de cuisine*/
     padding: 0 15px 0 5px;
   }
 
   .hands {
+    /*icon mains*/
     padding-right: 14px;
   }
 }

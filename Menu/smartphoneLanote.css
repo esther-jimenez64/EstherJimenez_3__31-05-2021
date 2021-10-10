@@ -119,11 +119,16 @@
   .backgroundCards :last-child {
     font-weight: bold; /*les prix*/
     color: rgb(68, 68, 68);
-    position: relative;
-    bottom: 24px;
-    left: 83%;
   }
-
+  .numero {
+    display: flex;
+    align-items: center; /*position des prix*/
+    justify-content: flex-end;
+    position: relative;
+    bottom: 27px;
+    right: 15px;
+    z-index: 1;
+  }
   .backgroundCards p {
     /*espace entre les p*/
     margin: 8px;
@@ -158,6 +163,19 @@
     padding: 17px;
     margin-left: 25%;
     margin-top: 8%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 
   /***Footer***/
@@ -187,10 +205,12 @@
 
   .footer a,
   footer a :hover {
+    /*enlever la décoration par défaut */
     text-decoration: none;
     border: transparent;
   }
   .footerText {
+    /*tout les titres*/
     margin-left: 6%;
     margin-top: 3%;
     color: white;
@@ -199,14 +219,17 @@
   }
 
   .footerBlock {
+    /*bouger tout les titres*/
     display: flex;
   }
 
   .ustensils {
+    /*ustensils de cuisine icon*/
     padding: 0 15px 0 5px;
   }
 
   .hands {
+    /*icon mains*/
     padding-right: 15px;
   }
 }

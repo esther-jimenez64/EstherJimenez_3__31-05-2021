@@ -28,8 +28,20 @@
     left: 47px;
     top: 30px;
     width: 60%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
   }
 
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+  }
   .fa-mobile-alt:before,
   .fa-list:before,
   .fa-store:before {
@@ -40,6 +52,13 @@
 
   .BoutonTitre  /*all tittle of foctionnement contour */ {
     width: 80%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonTitre:hover {
+    background: rgba(235, 235, 235, 0.993);
   }
 
   #Fonctionnement a {
@@ -47,6 +66,9 @@
     font-size: 1rem;
   }
 
+  .BoutonNumero {
+    z-index: 1;
+  }
   .boxcard figure/* all figure of Restaurant*/ {
     width: 92%;
   }
@@ -79,6 +101,17 @@
   footer {
     height: 220px;
     padding-top: 2%;
+    margin-top: 30px;
+  }
+
+  .footerText {
+    margin-left: 35px;
+  }
+
+  footer h3 {
+    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
   }
 
   .ustensils {
@@ -121,6 +154,19 @@
     position: relative;
     top: 20px;
     left: 25px;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 
   .fa-mobile-alt:before,
@@ -133,6 +179,17 @@
 
   .BoutonTitre  /*all tittle of foctionnement contour */ {
     width: 80%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonTitre:hover {
+    background: rgba(235, 235, 235, 0.993);
+  }
+
+  .BoutonNumero {
+    z-index: 1;
   }
 
   #Fonctionnement a {
@@ -175,11 +232,23 @@
     margin-top: 30px;
   }
 
+  .footerText {
+    margin-left: 8%;
+  }
+
+  footer h3 {
+    margin-left: 40px;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+  }
+
   .ustensils {
+    /*icon ustensils de cuisine*/
     padding: 0 13px 0 5px;
   }
 
   .hands {
+    /*icon mains*/
     padding-right: 12px;
   }
 }

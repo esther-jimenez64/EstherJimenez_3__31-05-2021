@@ -116,6 +116,7 @@
   }
   .backgroundCards :first-child {
     font-weight: bold; /*Titre 1 de cards */
+    color: black;
   }
   .backgroundCards {
     position: relative;
@@ -133,8 +134,8 @@
     font-weight: bold; /*les prix*/
     color: rgb(68, 68, 68);
     position: relative;
-    bottom: 24px;
-    left: 83%;
+    bottom: 30px;
+    left: 88%;
     z-index: 1;
     font-size: 1.1rem;
   }
@@ -142,6 +143,7 @@
   .backgroundCards p {
     /*espace entre les p*/
     margin: 8px;
+    color: rgb(37, 37, 37);
   }
 
   .tailleP {
@@ -151,7 +153,7 @@
   /***Section Commander****/
 
   .BoutonExplore a {
-    font-size: 1.3rem;
+    font-size: 1.3rem; /*police taille du titre dans le bouton*/
     width: 400px;
     text-decoration: none;
     color: white;
@@ -173,6 +175,19 @@
     padding: 25px;
     margin-left: 34%;
     margin-bottom: 5%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+  }
+
+  .BoutonExplore:hover {
+    transform: scale(1.15);
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
 
   /***Footer***/
@@ -201,12 +216,14 @@
     color: white;
   }
 
-  .footer a,
+  footer a,
   footer a :hover {
-    text-decoration: none;
+    text-decoration: none; /*enlever les ligne violette par défaut*/
     border: transparent;
   }
+
   .footerText {
+    /*les titres footer*/
     margin-left: 2%;
     color: white;
     line-height: 200%;
@@ -214,14 +231,17 @@
   }
 
   .footerBlock {
+    /*direction des titre*/
     display: flex;
   }
 
   .ustensils {
-    padding: 0 25px 0 5px;
+    /*icon ustensils*/
+    padding: 0 12px 0 5px;
   }
 
   .hands {
-    padding-right: 20px;
+    /*icon mains*/
+    padding-right: 12px;
   }
 }
