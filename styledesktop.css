@@ -167,7 +167,8 @@
   }
 
   .BoutonTitre:hover {
-    background: rgba(235, 235, 235, 0.993);
+    box-shadow: 3px 3px 20px #c6bfbf;
+    background-color: #e4d5f6;
   }
 
   .BoutonNumero {
@@ -279,11 +280,29 @@
     transform: scale(1.05); /*effect of hover of Restaurant card*/
   }
 
-  .fa-heart:before        /*icon Heart*/ {
-    position: absolute;
-    font-size: 1.9rem;
-    color: rgb(53, 53, 53);
-    z-index: 1;
+  .fa-heart:before {
+    /*icon ceour*/
+    font-size: 2.4rem;
+  }
+  .heart {
+    position: relative; /*icon Heart*/
+    margin-right: 4%;
+    bottom: 30px;
+  }
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   .nouveau {
@@ -293,7 +312,7 @@
     /*Vignete nouveau sur les cards*/
     position: relative;
     left: 79%;
-    bottom: 420px;
+    bottom: 380px;
     padding: 15px 25px;
     border: transparent;
     font-size: 1.2rem;
@@ -303,10 +322,10 @@
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 1px;
+    padding-bottom: px;
     margin-top: 170px;
     margin-bottom: 0;
-    height: 210px;
+    height: 220px;
     position: absolute;
   }
   footer h3 {
@@ -331,11 +350,11 @@
 
   .ustensils {
     /*icon ustensils de cuisine*/
-    padding: 0 15px 0 5px;
+    padding: 0 12px 0 5px;
   }
 
   .hands {
     /*icon mains*/
-    padding-right: 15px;
+    padding-right: 12px;
   }
 }

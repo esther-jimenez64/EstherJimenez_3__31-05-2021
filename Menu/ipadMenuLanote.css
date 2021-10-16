@@ -49,7 +49,8 @@
   #photoBackground img {
     /*dimension image */
     width: 100%;
-    height: 80%;
+    height: 400px;
+    object-fit: cover;
   }
 
   /***Section À la française***/
@@ -79,6 +80,7 @@
     width: 100%;
     position: relative;
     bottom: 105px;
+    padding-bottom: 88px;
   }
   /*Cards*/
   .entre {
@@ -204,7 +206,7 @@
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-left: 0%;
+    margin-left: 3.5%;
     color: rgba(235, 235, 235, 0.897);
     font-size: 1.4rem;
     margin-bottom: 1%;
@@ -221,8 +223,8 @@
     border: transparent;
   }
   .footerText {
-    margin-left: 6%;
-    margin-top: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
     color: white;
     line-height: 150%;
     font-size: 18px;
@@ -288,7 +290,8 @@
   #photoBackground img {
     /*dimension image */
     width: 100%;
-    height: 80%;
+    height: 200px;
+    object-fit: cover;
   }
 
   /***Section À la française***/
@@ -432,7 +435,7 @@
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
     margin-left: 6%;
-    color: rgba(235, 235, 235, 0.897);
+    color: rgba(80, 70, 70, 0.897);
     font-size: 1.4rem;
     margin-bottom: 1%;
   }

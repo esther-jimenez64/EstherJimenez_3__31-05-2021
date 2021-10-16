@@ -66,6 +66,10 @@
     font-size: 1rem;
   }
 
+  #Fonctionnement h2 {
+    margin-left: 1rem;
+  }
+
   .BoutonNumero {
     z-index: 1;
   }
@@ -77,12 +81,28 @@
     width: 102.5%;
   }
 
-  .fa-heart:before        /*icon Heart*/ {
-    position: absolute;
-    bottom: 35px;
-    right: 2%;
+  .heart {
+    position: relative; /*icon Heart*/
     font-size: 1.7rem;
     color: rgb(53, 53, 53);
+    margin-right: 9%;
+    bottom: 40px;
+  }
+
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   .nouveau {
@@ -115,11 +135,11 @@
   }
 
   .ustensils {
-    padding: 0 15px 0 5px;
+    padding: 0 11px 0 5px;
   }
 
   .hands {
-    padding-right: 14px;
+    padding-right: 10px;
   }
 }
 
@@ -205,12 +225,28 @@
     width: 102.5%;
   }
 
-  .fa-heart:before        /*icon Heart*/ {
-    position: absolute;
-    bottom: 35px;
-    right: 2%;
+  .heart {
+    position: relative; /*icon Heart*/
     font-size: 1.7rem;
     color: rgb(53, 53, 53);
+    margin-right: 9%;
+    bottom: 40px;
+  }
+
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   .nouveau {

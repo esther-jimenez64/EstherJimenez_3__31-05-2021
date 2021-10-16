@@ -48,6 +48,7 @@
     /*dimension image */
     width: 100%;
     height: 80%;
+    object-fit: cover;
   }
 
   /***Section À la française***/
@@ -147,7 +148,12 @@
   .tailleP {
     font-size: 0.9rem; /*taille des p qui depasser le prix*/
   }
-
+  .fa-heart:before {
+    background-color: white;
+  }
+  .fa-heart:active {
+    background-color: red;
+  }
   /***Section Commander****/
 
   .BoutonExplore a {
@@ -194,7 +200,7 @@
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
     padding-bottom: 0px;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 0;
     height: 210px;
     width: 100%;
@@ -232,11 +238,11 @@
   }
 
   .ustensils {
-    padding: 0 15px 0 5px;
+    padding: 0 11px 0 5px;
   }
 
   .hands {
-    padding-right: 15px;
+    padding-right: 10px;
   }
 }
 
@@ -290,6 +296,7 @@
     /*dimension image */
     width: 100%;
     height: 80%;
+    object-fit: cover;
   }
 
   /***Section À la française***/
@@ -368,7 +375,7 @@
     font-weight: bold; /*les prix*/
     color: rgb(68, 68, 68);
     position: relative;
-    bottom: 24px;
+    bottom: 27px;
     left: 88%;
     margin-right: 1%;
   }
@@ -379,7 +386,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 85%;
   }
 
@@ -414,9 +421,9 @@
     width: 45%;
     text-align: center;
     padding: 17px;
-    margin-left: 25%;
+    margin-left: 23%;
     position: relative;
-    bottom: 2rem;
+    bottom: 3rem;
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms;
@@ -436,7 +443,7 @@
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
     padding-bottom: 0px;
-    margin-top: 80px;
+    margin-top: 35px;
     margin-bottom: 0;
     height: 210px;
     width: 100%;
@@ -478,11 +485,11 @@
 
   .ustensils {
     /*icon ustensils*/
-    padding: 0 12px 0 5px;
+    padding: 0 10px 0 5px;
   }
 
   .hands {
     /*icon mains*/
-    padding-right: 12px;
+    padding-right: 10px;
   }
 }

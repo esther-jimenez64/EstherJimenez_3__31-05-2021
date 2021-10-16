@@ -47,7 +47,8 @@
   #photoBackground img {
     /*dimension image */
     width: 100%;
-    height: 950px;
+    height: 800px;
+    object-fit: cover;
   }
 
   /***Section À la française***/
@@ -231,10 +232,10 @@
   }
 
   .ustensils {
-    padding: 0 25px 0 5px;
+    padding: 0 13px 0 5px;
   }
 
   .hands {
-    padding-right: 20px;
+    padding-right: 12px;
   }
 }
