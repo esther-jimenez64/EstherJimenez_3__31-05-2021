@@ -64,12 +64,30 @@
     bottom: 1.5rem;
   }
 
-  .fa-heart:before {
+  .heart .fa-heart:before {
+    /*icon ceour*/
     color: rgb(36, 36, 36);
-    position: absolute; /*Icon heart*/
-    top: 33px;
-    left: 89.8%;
-    font-size: 3rem;
+    font-size: 2.1rem;
+  }
+  .heart {
+    position: relative; /*icon Heart*/
+    left: 88%;
+    bottom: 1090px;
+  }
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   #blockMenu {
@@ -238,238 +256,6 @@
   }
 
   .hands {
-    padding-right: 15px;
-  }
-}
-
-@media screen and (min-width: 50px) and (max-width: 356px) {
-  @font-face {
-    font-family: "Shrikhand-Regular.ttf";
-    src: url("fontfamily/Shrikhand-Regular.ttf");
-    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
-        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
-  }
-
-  @font-face {
-    font-family: "Roboto-Bold.ttf";
-    src: url("fontfamily/Roboto-Bold.ttf");
-    src: url("fontfamily/Roboto-Bold.ttf")
-        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Bold.ttf") format("woff"),
-      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
-      url("fontfamily/Roboto-Bold.ttf") format("svg");
-  }
-
-  body {
-    margin: 0px;
-  }
-  /**Header**/
-  #logo img {
-    width: 40%; /*img logo */
-  }
-
-  #logo {
-    position: relative; /*position du logo*/
-    left: 28%;
-    top: 5px;
-  }
-
-  .fa-arrow-left:before  /*icon Fléche*/ {
-    color: rgb(31, 30, 30);
-  }
-  .FlecheIcon  /*move Icon arrow*/ {
-    position: relative;
-    bottom: 20px;
-    left: 7%;
-  }
-
-  #photoBackground img {
-    /*dimension image */
-    width: 100%;
-    height: 80%;
-  }
-
-  /***Section À la française***/
-
-  h2 {
-    font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
-    margin-left: 5%;
-    z-index: 1;
-    display: flex;
-    position: relative;
-    bottom: 1.5rem;
-  }
-
-  .fa-heart:before {
-    font-size: 1.5rem;
-    color: rgb(36, 36, 36);
-    position: absolute; /*Icon heart*/
-    top: 33px;
-    right: 10%;
-  }
-
-  #blockMenu {
-    background-color: rgba(238, 238, 238, 0.993);
-    border-radius: 40px 40px 0px 0px;
-    padding-top: 20px;
-    height: 1120px; /*id qui englobe toute la section plat */
-    width: 100%;
-    position: relative;
-    bottom: 105px;
-  }
-  /*Cards*/
-  .entre {
-    position: relative;
-    top: 25px; /*class englobante pour bouger les cards*/
-    margin-left: 5%;
-    margin-bottom: 40px;
-    justify-content: space-between;
-  }
-
-  .entre a {
-    text-decoration: none;
-    color: black; /*les lien de touts les plats*/
-    font-family: "roboto", sans-serif;
-  }
-
-  .entre h3 {
-    font-size: 1rem;
-    font-family: "roboto", sans-serif; /*titre entré*/
-    color: #0f0f0f;
-    font-weight: 200;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-  h3:hover {
-    border-bottom: solid 3px #99e2d0;
-    width: 8%;
-    padding-bottom: 5px; /*les titre de section au survol*/
-  }
-  .backgroundCards :first-child {
-    font-weight: bold; /*Titre 1 de cards */
-    margin-bottom: 2%;
-  }
-  .backgroundCards {
-    position: relative;
-    right: 5%; /*position et class englobante des cards*/
-    border-radius: 15px 15px 15px 15px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: #ddddddee 8px 8px 8px 8px;
-    padding: 10px;
-    height: 55px;
-    width: 95%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-  }
-  .backgroundCards :last-child {
-    font-weight: bold; /*les prix*/
-    color: rgb(68, 68, 68);
-    position: relative;
-    bottom: 24px;
-    left: 88%;
-    margin-right: 1%;
-  }
-
-  .backgroundCards p {
-    /*espace entre les p*/
-    margin: 8px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    font-size: 0.9rem;
-  }
-
-  .tailleP {
-    /*taille des p qui depasser le prix*/
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    font-size: 0.9rem;
-  }
-
-  /***Section Commander****/
-
-  .BoutonExplore a {
-    font-size: 1.1rem;
-    width: 400px;
-    text-decoration: none;
-    color: white;
-    font-family: "Roboto-Bold.ttf";
-    cursor: pointer;
-  }
-
-  .BoutonExplore {
-    border-radius: 10px/20px;
-    border-radius: 100px 100px 100px 97px;
-    background-image: radial-gradient(
-      ellipse farthest-corner at 20px 0,
-      #ff79da 0%,
-      #9356dc 100%
-    ); /* le background du bouton recherche   */
-    height: 24px;
-    width: 45%;
-    text-align: center;
-    padding: 17px;
-    margin-left: 25%;
-    position: relative;
-    bottom: 2rem;
-  }
-
-  /***Footer***/
-  footer {
-    background-color: rgb(51, 51, 51); /*background de footer*/
-    padding-top: 8px;
-    padding-bottom: 0px;
-    margin-top: 80px;
-    margin-bottom: 0;
-    height: 210px;
-    width: 100%;
-    position: absolute;
-  }
-  footer h3 {
-    font-family: "Shrikhand-Regular.ttf";
-    font-weight: lighter;
-    margin-left: 6%;
-    color: rgba(80, 70, 70, 0.897);
-    font-size: 1.4rem;
-    margin-bottom: 1%;
-  }
-
-  .footerText a {
-    text-decoration: none; /*tout les paragraphe cliquable*/
-    color: white;
-  }
-
-  .footer a,
-  footer a :hover {
-    /*enlever la décoration par défaut */
-    text-decoration: none;
-    border: transparent;
-  }
-  .footerText {
-    /*tout les titre footer*/
-    margin-left: 6%;
-    margin-top: 3%;
-    color: white;
-    line-height: 150%;
-    font-size: 18px;
-  }
-
-  .footerBlock {
-    /*bouger tout les titre*/
-    display: flex;
-  }
-
-  .ustensils {
-    /*icon ustensils*/
-    padding: 0 15px 0 5px;
-  }
-
-  .hands {
-    /*icon mains*/
     padding-right: 15px;
   }
 }

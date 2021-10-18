@@ -167,8 +167,8 @@
   }
 
   .BoutonTitre:hover {
-    box-shadow: 3px 3px 20px #c6bfbf;
-    background-color: #e4d5f6;
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+    background-color: #c9aeeb;
   }
 
   .BoutonNumero {

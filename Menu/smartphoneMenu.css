@@ -1,4 +1,4 @@
-@media screen and (min-width: 357px) and (max-width: 1202px) {
+@media screen and (min-width: 357px) and (max-width: 767px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -62,12 +62,30 @@
     bottom: 1.5rem;
   }
 
-  .fa-heart:before {
-    font-size: 1.5rem;
+  .heart .fa-heart:before {
+    /*icon ceour*/
     color: rgb(36, 36, 36);
-    position: absolute; /*Icon heart*/
-    top: 33px;
-    right: 10%;
+    font-size: 300%;
+  }
+  .heart {
+    position: relative; /*icon Heart*/
+    padding-left: 90%;
+  }
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+    position: absolute;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   #blockMenu {
@@ -148,12 +166,7 @@
   .tailleP {
     font-size: 0.9rem; /*taille des p qui depasser le prix*/
   }
-  .fa-heart:before {
-    background-color: white;
-  }
-  .fa-heart:active {
-    background-color: red;
-  }
+
   /***Section Commander****/
 
   .BoutonExplore a {
@@ -310,12 +323,30 @@
     bottom: 1.5rem;
   }
 
-  .fa-heart:before {
-    font-size: 1.5rem;
+  .heart .fa-heart:before {
+    /*icon ceour*/
     color: rgb(36, 36, 36);
-    position: absolute; /*Icon heart*/
-    top: 33px;
-    right: 10%;
+    font-size: 1.5rem;
+  }
+  .heart {
+    position: relative; /*icon Heart*/
+    left: 84%;
+    bottom: 1082px;
+  }
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:hover::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   #blockMenu {
