@@ -75,7 +75,7 @@
   #Fonctionnement h2 {
     /*Titre Fonctionnement*/
     font-size: 2.2rem;
-    margin-left: 0.8rem;
+    margin-left: 1.7rem;
   }
   .BoutonTitre {
     /*all title of cards */
@@ -189,7 +189,7 @@
     content: "\f004";
     transition: color 1s ease-out;
   }
-  .heart .fa-heart:hover::before {
+  .heart .fa-heart:active::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;

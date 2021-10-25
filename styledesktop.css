@@ -32,6 +32,61 @@
     margin: 0;
   }
 
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  #bloc_page {
+    opacity: 0.1;
+  }
+
+  h2 {
+    position: fixed;
+    font-size: 14vw;
+    color: #252839;
+    text-shadow: 0 0 0.3vw #383d52;
+    text-transform: uppercase;
+    user-select: none;
+    animation-iteration-count: 2;
+    background: color white;
+  }
+  h2:before {
+    content: attr(title);
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    width: 0;
+    height: 100%;
+    color: #ff79da;
+    text-shadow: 0 0 10vw #1f997c;
+    overflow: hidden;
+    animation: animate 6s linear;
+    animation-iteration-count: 2;
+  }
+  @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+      animation-iteration-count: 2;
+    }
+    70%,
+    90% {
+      width: 100%;
+      animation-iteration-count: 2;
+    }
+  }
+
   /**Header**/
 
   #logo {

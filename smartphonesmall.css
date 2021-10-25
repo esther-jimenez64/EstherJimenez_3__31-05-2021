@@ -28,13 +28,9 @@
     left: 47px;
     top: 30px;
     width: 60%;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 400ms;
   }
 
   .BoutonExplore:hover {
-    transform: scale(1.15);
     background: radial-gradient(
       ellipse farthest-corner at 20px 0,
       #ff79da 0%,
@@ -99,7 +95,7 @@
     content: "\f004";
     transition: color 1s ease-out;
   }
-  .heart .fa-heart:hover::before {
+  .heart .fa-heart:active::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;

@@ -108,9 +108,6 @@ body {
   position: absolute;
   right: 16%;
   margin-top: 20px;
-  transform: scale(1);
-  transition-property: transform;
-  transition-duration: 400ms;
 }
 .BoutonExplore a {
   font-size: 1.1rem;
@@ -123,7 +120,6 @@ body {
 }
 
 .BoutonExplore:hover {
-  transform: scale(1.15);
   background: radial-gradient(
     ellipse farthest-corner at 20px 0,
     #ff79da 0%,
