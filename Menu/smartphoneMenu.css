@@ -137,9 +137,9 @@
   margin-bottom: 30px;
   margin-top: 45px;
 }
-h3:hover {
+.entre h3:hover {
   border-bottom: solid 3px #99e2d0;
-  width: 8%;
+  max-width: 8%;
   padding-bottom: 5px; /*les titre de section au survol*/
 }
 .backgroundCards :first-child {
@@ -157,9 +157,260 @@ h3:hover {
   margin-left: 2%;
   margin-bottom: 20px;
 }
+
 .backgroundCards :last-child {
   font-weight: bold; /*les prix*/
   color: rgb(68, 68, 68);
+}
+
+.effetEspeletteOpac {
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari et Chrome */
+  -o-animation: fadein 1; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetCanardOpac {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s; /* Safari et Chrome */
+  -o-animation: fadein 2s; /* Opera */zzz
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetOeoufOpac {
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s; /* Safari et Chrome */
+  -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetBeoufOpac {
+  animation: fadein 3.2s;
+  -moz-animation: fadein 3.2s; /* Firefox */
+  -webkit-animation: fadein 3.2s; /* Safari et Chrome */
+  -o-animation: fadein 3.2s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetQueueOpac {
+  animation: fadein 6s;
+  -moz-animation: fadein 6s; /* Firefox */
+  -webkit-animation: fadein 6s; /* Safari et Chrome */
+  -o-animation: fadein 6s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetturbotOpac {
+  animation: fadein 7s;
+  -moz-animation: fadein 7s; /* Firefox */
+  -webkit-animation: fadein 7s; /* Safari et Chrome */
+  -o-animation: fadein 7s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetBrestOpac {
+  animation: fadein 8s;
+  -moz-animation: fadein 8s; /* Firefox */
+  -webkit-animation: fadein 8s; /* Safari et Chrome */
+  -o-animation: fadein 8s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetMacOpac {
+  animation: fadein 9s;
+  -moz-animation: fadein 9s; /* Firefox */
+  -webkit-animation: fadein 9s; /* Safari et Chrome */
+  -o-animation: fadein 9s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetMousseOpac {
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari et Chrome */
+  -o-animation: fadein 10s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.effetMousseOpac {
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari et Chrome */
+  -o-animation: fadein 10s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    background-color: white;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .backgroundCards p {

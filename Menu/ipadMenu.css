@@ -138,9 +138,8 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
-h3:hover {
+.entre h3:hover {
   border-bottom: solid 3px #99e2d0;
-  width: 8%;
   padding-bottom: 5px; /*les titre de section au survol*/
 }
 .backgroundCards :first-child {
