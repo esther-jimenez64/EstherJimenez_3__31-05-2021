@@ -164,251 +164,505 @@
 }
 
 .effetEspeletteOpac {
-  animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari et Chrome */
-  -o-animation: fadein 1; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 1ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetCanardOpac {
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari et Chrome */
-  -o-animation: fadein 2s; /* Opera */zzz
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetOeoufOpac {
-  animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari et Chrome */
-  -o-animation: fadein 3s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 1000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetBeoufOpac {
-  animation: fadein 3.2s;
-  -moz-animation: fadein 3.2s; /* Firefox */
-  -webkit-animation: fadein 3.2s; /* Safari et Chrome */
-  -o-animation: fadein 3.2s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 1500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetQueueOpac {
-  animation: fadein 6s;
-  -moz-animation: fadein 6s; /* Firefox */
-  -webkit-animation: fadein 6s; /* Safari et Chrome */
-  -o-animation: fadein 6s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 2000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetturbotOpac {
-  animation: fadein 7s;
-  -moz-animation: fadein 7s; /* Firefox */
-  -webkit-animation: fadein 7s; /* Safari et Chrome */
-  -o-animation: fadein 7s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 2500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetBrestOpac {
-  animation: fadein 8s;
-  -moz-animation: fadein 8s; /* Firefox */
-  -webkit-animation: fadein 8s; /* Safari et Chrome */
-  -o-animation: fadein 8s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 3000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetMacOpac {
-  animation: fadein 9s;
-  -moz-animation: fadein 9s; /* Firefox */
-  -webkit-animation: fadein 9s; /* Safari et Chrome */
-  -o-animation: fadein 9s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 3500ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
 
 .effetMousseOpac {
-  animation: fadein 10s;
-  -moz-animation: fadein 10s; /* Firefox */
-  -webkit-animation: fadein 10s; /* Safari et Chrome */
-  -o-animation: fadein 10s; /* Opera */
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  animation-delay: 4000ms;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
-@keyframes fadein {
-  from {
-    opacity: 0;
-    background-color: white;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
-.effetMousseOpac {
-  animation: fadein 10s;
-  -moz-animation: fadein 10s; /* Firefox */
-  -webkit-animation: fadein 10s; /* Safari et Chrome */
-  -o-animation: fadein 10s; /* Opera */
-}
-@keyframes fadein {
-  from {
+@-moz-keyframes fadeIn {
+  0% {
     opacity: 0;
-    background-color: white;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
-@-moz-keyframes fadein {
-  /* sur Firefox */
-  from {
+
+@-webkit-keyframes fadeIn {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
