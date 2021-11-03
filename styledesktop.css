@@ -323,7 +323,7 @@
 
   .boxcard figure img {
     object-fit: cover; /*all img of Restaurant*/
-    width: 101%;
+    width: 101.2%;
     height: 280px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -398,7 +398,7 @@
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
     position: relative;
-    left: 79%;
+    left: 77%;
     bottom: 380px;
     padding: 15px 25px;
     border: transparent;

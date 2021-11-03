@@ -64,12 +64,11 @@
     bottom: 1.5rem;
   }
 
-  .fa-heart:before {
+  .heart .fa-heart:before {
+    /*icon ceour*/
     color: rgb(36, 36, 36);
-    position: absolute; /*Icon heart*/
-    top: 33px;
-    left: 89.8%;
-    font-size: 3rem;
+    font-size: 2.1rem;
+    font-weight: normal;
   }
 
   #blockMenu {
@@ -149,6 +148,32 @@
   }
   .tailleP {
     font-size: 0.9rem; /*taille des p qui depasser le prix*/
+  }
+
+  .heart {
+    /*icon Heart*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 205px;
+    right: 10px;
+    z-index: 1;
+  }
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
+  }
+  .heart .fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+  }
+  .heart .fa-heart:active::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
   }
 
   /***Section Commander****/
@@ -305,7 +330,7 @@
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    bottom: 200px;
+    bottom: 205px;
     right: 10px;
     z-index: 1;
   }

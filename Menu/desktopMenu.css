@@ -89,7 +89,7 @@
     color: violet;
     cursor: pointer;
     font-weight: bold;
-    transition: color 1.2s ease-out;
+    transition: color 1.5s ease-out;
   }
 
   section#blockMenu {
@@ -164,6 +164,7 @@
     z-index: 1;
     font-weight: bold;
     color: rgb(68, 68, 68);
+    word-break: break-word;
   }
 
   .backgroundCards p {
@@ -174,6 +175,39 @@
 
   .tailleP {
     font-size: 0.9rem; /*taille des p qui depasser le prix*/
+  }
+
+  .squarecheck {
+    width: 80px;
+    height: 76px;
+    background: #99e2d0;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    bottom: 90px;
+    left: 440px;
+    transition: transform 330ms ease-in-out;
+    white-space: nowrap;
+    word-wrap: normal;
+    z-index: 1;
+  }
+  .squarecheck:hover {
+    transform: translate(-100px);
+  }
+  .fa-chevron-circle-down::before {
+    z-index: 1;
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-size: 1.8rem;
+  }
+  .circle:hover {
+    transform: rotate(0deg);
+  }
+
+  .circle {
+    transform: rotate(-360deg);
+    transition: transform 500ms ease-in-out;
   }
 
   /***Section Commander****/

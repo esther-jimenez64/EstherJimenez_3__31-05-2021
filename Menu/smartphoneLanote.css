@@ -170,6 +170,161 @@
     width: 85%;
   }
 
+  .effetEspeletteOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .effetCanardOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetOeoufOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetfoieOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetBeoufOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetQueueOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetturbotOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 3000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetBrestOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 3500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetMacOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 4000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .effetMousseOpac {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 4500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
   .numero {
     display: flex;
     align-items: center; /*position des prix*/
