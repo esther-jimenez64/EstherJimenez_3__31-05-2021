@@ -1,0 +1,53 @@
+.squarecheck {
+  width: 80px;
+  height: 76px;
+  background: #99e2d0;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 1px;
+  right: 2%;
+  left: 100%;
+  transition: transform 200ms ease-in-out;
+  white-space: nowrap;
+  word-wrap: normal;
+  z-index: 1;
+  opacity: 0;
+  box-shadow: #ddddddee 8px 8px 8px 8px;
+  transition-duration: 0.9s;
+}
+.backgroundCards:hover .squarecheck {
+  transform: translate(-30%);
+  opacity: 1;
+}
+.fa-chevron-circle-down::before {
+  z-index: 1;
+  color: white;
+  position: relative;
+  left: 25px;
+  top: 25px;
+  font-size: 1.8rem;
+}
+
+.backgroundCards:hover .squarecheck .circle {
+  -webkit-animation: rotate 1s linear;
+  animation-duration: 200ms;
+}
+@-webkit-keyframes rotate {
+  /* 100% keyframe for  clockwise. 
+       use 0% instead for anticlockwise */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.backgroundCards:hover {
+  animation: petit 1.5s forwards;
+}
+
+@-webkit-keyframes petit {
+  /* 100% keyframe for  clockwise. 
+       use 0% instead for anticlockwise */
+  to {
+    width: 145%;
+  }
+}
