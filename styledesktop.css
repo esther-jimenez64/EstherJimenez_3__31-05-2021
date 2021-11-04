@@ -83,6 +83,7 @@
     border-radius: inherit;
     -webkit-animation: wave 2s ease-out infinite;
     animation: wave 2s ease-out infinite;
+    
   }
   .loading .dot:nth-child(1) {
     background: #9356dc;
