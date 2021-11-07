@@ -69,14 +69,12 @@
     color: rgb(36, 36, 36);
     font-weight: normal;
   }
-
   div.heart {
     position: relative; /*icon Heart*/
     right: 1%;
-    left: 323%;
-    bottom: 227px;
+    left: 580%;
+    bottom: 245px;
   }
-
   .heart .fa-heart {
     color: #fff;
     border-radius: 50%;
@@ -90,9 +88,8 @@
     color: violet;
     cursor: pointer;
     font-weight: bold;
-    transition: color 1.2s ease-out;
+    transition: color 1.5s ease-out;
   }
-
   section#blockMenu {
     background-color: rgba(245, 245, 245, 0.993);
     border-radius: 50px 50px 0px 0px;
@@ -322,6 +319,106 @@
     animation-fill-mode: forwards;
   }
 
+  .effetCanardOpac {
+    position: relative;
+    bottom: 44px;
+  }
+
+  .effetCanardOpac p {
+    position: relative;
+    top: 40px;
+  }
+
+  .effetCanardOpac .numero {
+    position: relative;
+    top: 10px;
+  }
+
+  .effetOeoufOpac {
+    position: relative;
+    bottom: 44px;
+  }
+
+  .effetOeoufOpac p {
+    position: relative;
+    bottom: 1px;
+  }
+
+  .effetOeoufOpac .numero {
+    position: relative;
+    bottom: 28px;
+  }
+
+  .effetfoieOpac {
+    position: relative;
+    bottom: 44px;
+  }
+
+  .effetfoieOpac p {
+    position: relative;
+    top: 40px;
+  }
+
+  .effetfoieOpac .numero {
+    position: relative;
+    top: 12px;
+  }
+
+  .squarecheck {
+    width: 80px;
+    height: 76px;
+    background: #99e2d0;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 1px;
+    right: 2%;
+    left: 94%;
+    transition: transform 200ms ease-in-out linear;
+    white-space: nowrap;
+    word-wrap: normal;
+    z-index: 1;
+    opacity: 0;
+    box-shadow: #ddddddee 8px 8px 8px 8px;
+    transition-duration: 0.9s;
+  }
+
+  .backgroundCards:hover .squarecheck {
+    opacity: 1;
+    translate: (-40%);
+  }
+
+  .fa-chevron-circle-down::before {
+    z-index: 1;
+    color: white;
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-size: 1.8rem;
+  }
+  .backgroundCard:hover .squarecheck .circle {
+    -webkit-animation: rotate 1s linear;
+    animation-duration: 200ms;
+  }
+  @-webkit-keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+         use 0% instead for anticlockwise */
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  .backgroundCards:hover {
+    animation: petit 1.5s forwards;
+    animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes petit {
+    /* 100% keyframe for  clockwise. 
+         use 0% instead for anticlockwise */
+    to {
+      width: 150%;
+    }
+  }
   /***Section Commander****/
 
   .BoutonExplore a {
@@ -346,14 +443,12 @@
     text-align: center;
     padding: 25px;
     margin-left: 34%;
-    margin-bottom: 8%;
-    transform: scale(1);
-    transition-property: transform;
+    position: relative;
+    bottom: 700px;
     transition-duration: 400ms;
   }
 
   .BoutonExplore:hover {
-    transform: scale(1.15);
     background: radial-gradient(
       ellipse farthest-corner at 20px 0,
       #ff79da 0%,

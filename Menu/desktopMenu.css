@@ -225,7 +225,7 @@
   }
 
   .backgroundCards:hover .squarecheck {
-    transform: translate(-30%);
+   
     opacity: 1;
   }
 
@@ -237,8 +237,7 @@
     top: 25px;
     font-size: 1.8rem;
   }
-
-  .backgroundCards:hover .squarecheck .circle {
+  .backgroundCard:hover .squarecheck .circle {
     -webkit-animation: rotate 1s linear;
     animation-duration: 200ms;
   }
@@ -259,7 +258,7 @@
     /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
     to {
-      width: 145%;
+      width: 800%;
     }
   }
   /***Section Commander****/

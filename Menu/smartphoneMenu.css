@@ -1,4 +1,4 @@
-@media screen and (min-width: 50px) and (max-width: 810px) {
+@media screen and (min-width: 50px) and (max-width: 809px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -75,8 +75,8 @@
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    bottom: 205px;
-    right: 10px;
+    bottom: 208px;
+    right: 20px;
     z-index: 1;
   }
   .numero {
@@ -307,13 +307,43 @@
   animation-fill-mode: forwards;
 }
 
+.effetCanardOpac {
+  position: relative;
+  bottom: 38px;
+}
+
+.effetCanardOpac p {
+  position: relative;
+  top: 40px;
+}
+
+.effetCanardOpac .numero {
+  position: relative;
+  top: 10px;
+}
+
+.effetOeoufOpac {
+  position: relative;
+  bottom: 38px;
+}
+
+.effetOeoufOpac p {
+  position: relative;
+  bottom: 1px;
+}
+
+.effetOeoufOpac .numero {
+  position: relative;
+  bottom: 28px;
+}
+
 .backgroundCards p {
   /*espace entre les p*/
   margin: 8px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 85%;
+  width: 70%;
 }
 
 .numero {
@@ -322,13 +352,68 @@
   justify-content: flex-end;
   position: relative;
   bottom: 26px;
-  right: 15px;
+  right: 1px;
   z-index: 1;
   font-weight: bold;
   color: rgb(68, 68, 68);
 }
 .tailleP {
   font-size: 0.9rem; /*taille des p qui depasser le prix*/
+}
+
+.squarecheck {
+  width: 80px;
+  height: 74px;
+  background: #99e2d0;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 1px;
+  right: 2%;
+  left: 100%;
+  transition: transform 400ms ease-in-out linear;
+  white-space: nowrap;
+  word-wrap: normal;
+  z-index: 1;
+  opacity: 0;
+  box-shadow: #ddddddee 8px 8px 8px 8px;
+  transition-duration: 0.9s;
+}
+
+.backgroundCards:hover .squarecheck {
+  transform: translate(-11%);
+  opacity: 1;
+}
+
+.fa-chevron-circle-down::before {
+  z-index: 1;
+  color: white;
+  position: relative;
+  left: 25px;
+  top: 25px;
+  font-size: 1.8rem;
+}
+.backgroundCard:hover .squarecheck .circle {
+  -webkit-animation: rotate 1s linear;
+  animation-duration: 200ms;
+}
+@-webkit-keyframes rotate {
+  /* 100% keyframe for  clockwise. 
+         use 0% instead for anticlockwise */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.backgroundCards:hover {
+  animation: petit 0.3s forwards;
+}
+
+@-webkit-keyframes petit {
+  /* 100% keyframe for  clockwise. 
+         use 0% instead for anticlockwise */
+  to {
+    width: 68%;
+  }
 }
 
 /***Section Commander****/
@@ -400,7 +485,7 @@ footer a :hover {
 }
 .footerText {
   margin-left: 6%;
-  margin-top: 3%;
+  margin-top: 1%;
   color: white;
   line-height: 150%;
   font-size: 18px;
