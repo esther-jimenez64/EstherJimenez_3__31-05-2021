@@ -120,7 +120,9 @@
     padding-top: 2%;
     margin-top: 50px;
   }
-
+  footer a {
+    text-decoration: none;
+  }
   .footerText {
     margin-left: 35px;
   }
@@ -130,7 +132,9 @@
     font-size: 1.4rem;
     margin-bottom: 2%;
   }
-
+  a h3 {
+    text-decoration: none;
+  }
   .ustensils {
     padding: 0 11px 0 5px;
   }
@@ -274,6 +278,10 @@
     margin-left: 40px;
     font-size: 1.4rem;
     margin-bottom: 2%;
+  }
+
+  footer a {
+    text-decoration: none;
   }
 
   .ustensils {

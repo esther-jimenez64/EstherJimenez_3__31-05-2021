@@ -395,10 +395,8 @@
     top: 25px;
     font-size: 1.8rem;
   }
-  .backgroundCard:hover .squarecheck .circle {
-    -webkit-animation: rotate 1s linear;
-    animation-duration: 200ms;
-  }
+
+ 
   @-webkit-keyframes rotate {
     /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
@@ -416,7 +414,7 @@
     /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
     to {
-      width: 150%;
+      width: 110%;
     }
   }
   /***Section Commander****/

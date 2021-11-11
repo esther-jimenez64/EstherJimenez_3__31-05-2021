@@ -58,66 +58,33 @@
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
     display: flex;
-
     align-items: center;
     justify-content: center;
   }
-
   .loading {
-    color: #9356dc, #ae5fdc, #c968db, #e470db, #ff79da;
-    display: flex;
-  }
-  .loading .dot {
-    position: relative;
-    width: 25px;
-    height: 25px;
-    margin: 8px;
-    border-radius: 50%;
-  }
-  .loading .dot::before {
+    padding: 100px;
+    border: 6px solid #ccc;
+    border-right-color: rgb(236, 13, 87);
+    border-radius: 104px;
+    -webkit-animation: rotate 1s infinite linear;
+    /* left, top and position just for the demo! */
     position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    border-radius: inherit;
-    -webkit-animation: wave 2s ease-out infinite;
-    animation: wave 2s ease-out infinite;
+    left: 43%;
+    top: 35%;
   }
-  .loading .dot:nth-child(1) {
-    background: #9356dc;
+
+  .oh {
+    font-family: "Shrikhand-Regular.ttf";
+    font-weight: lighter;
+    margin-top: 1px;
+    margin-right: 10px;
   }
-  .loading .dot:nth-child(1)::before {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-  }
-  .loading .dot:nth-child(2) {
-    background: #ae5fdc;
-  }
-  .loading .dot:nth-child(2)::before {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
-  }
-  .loading .dot:nth-child(3) {
-    background: #c968db;
-  }
-  .loading .dot:nth-child(3)::before {
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-  }
-  .loading .dot:nth-child(4) {
-    background: #e470db;
-  }
-  .loading .dot:nth-child(4)::before {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-  }
-  .loading .dot:nth-child(5) {
-    background: #ff79da;
-  }
-  .loading .dot:nth-child(5)::before {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+  @-webkit-keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+       use 0% instead for anticlockwise */
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
   }
   /**Header**/
 

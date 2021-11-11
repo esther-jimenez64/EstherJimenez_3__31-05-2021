@@ -75,8 +75,8 @@
     align-items: center;
     justify-content: flex-end;
     position: relative;
-    bottom: 208px;
-    right: 20px;
+    bottom: 210px;
+    right: 7%;
     z-index: 1;
   }
   .numero {
@@ -145,6 +145,7 @@
 .backgroundCards :first-child {
   font-weight: bold; /*Titre 1 de cards */
 }
+
 .backgroundCards {
   position: relative;
   right: 5%; /*position et class englobante des cards*/
@@ -379,7 +380,7 @@
   transition-duration: 0.9s;
 }
 
-.backgroundCards:hover .squarecheck {
+.backgroundCards:active .squarecheck {
   transform: translate(-11%);
   opacity: 1;
 }
@@ -392,7 +393,7 @@
   top: 25px;
   font-size: 1.8rem;
 }
-.backgroundCard:hover .squarecheck .circle {
+.backgroundCard:active .squarecheck .circle {
   -webkit-animation: rotate 1s linear;
   animation-duration: 200ms;
 }
@@ -404,18 +405,18 @@
   }
 }
 
-.backgroundCards:hover {
+.backgroundCards:active {
   animation: petit 0.3s forwards;
 }
-
-@-webkit-keyframes petit {
-  /* 100% keyframe for  clockwise. 
+@media (max-width: 809px) {
+  @-webkit-keyframes petit {
+    /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
-  to {
-    width: 68%;
+    to {
+      width: 68%;
+    }
   }
 }
-
 /***Section Commander****/
 
 .BoutonExplore a {

@@ -214,7 +214,7 @@
     position: absolute;
     top: 1px;
     right: 2%;
-    left: 100%;
+    left: 94%;
     transition: transform 200ms ease-in-out linear;
     white-space: nowrap;
     word-wrap: normal;
@@ -225,8 +225,8 @@
   }
 
   .backgroundCards:hover .squarecheck {
-   
     opacity: 1;
+    translate: (-40%);
   }
 
   .fa-chevron-circle-down::before {
@@ -237,15 +237,15 @@
     top: 25px;
     font-size: 1.8rem;
   }
-  .backgroundCard:hover .squarecheck .circle {
-    -webkit-animation: rotate 1s linear;
-    animation-duration: 200ms;
+
+  .backgroundCards:hover .fa-chevron-circle-down {
+    -webkit-animation: rotate 300ms linear;
   }
   @-webkit-keyframes rotate {
     /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
     100% {
-      -webkit-transform: rotate(360deg);
+      -webkit-transform: rotate (1turn);
     }
   }
 
@@ -258,7 +258,7 @@
     /* 100% keyframe for  clockwise. 
          use 0% instead for anticlockwise */
     to {
-      width: 800%;
+      width: 110%;
     }
   }
   /***Section Commander****/

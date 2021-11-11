@@ -1,4 +1,4 @@
-@media screen and (min-width: 811px) and (max-width: 1202px) {
+@media screen and (min-width: 810px) and (max-width: 1202px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -42,8 +42,9 @@
 
   .FlecheIcon  /*move Icon arrow*/ {
     position: relative;
-    bottom: 1040px;
-    left: 7%;
+    bottom: 30px;
+    right: 1%;
+    left: 10%;
   }
 
   #photoBackground img {
@@ -77,8 +78,8 @@
   align-items: center;
   justify-content: flex-end;
   position: relative;
-  bottom: 205px;
-  right: 4px;
+  bottom: 212px;
+  right: 6%;
   z-index: 1;
 }
 .numero {
@@ -185,14 +186,14 @@
 
 .squarecheck {
   width: 80px;
-  height: 76px;
+  height: 74px;
   background: #99e2d0;
   border-radius: 0px 10px 10px 0px;
   position: absolute;
   top: 1px;
   right: 2%;
   left: 100%;
-  transition: transform 200ms ease-in-out linear;
+  transition: transform 400ms ease-in-out linear;
   white-space: nowrap;
   word-wrap: normal;
   z-index: 1;
@@ -201,8 +202,8 @@
   transition-duration: 0.9s;
 }
 
-.backgroundCards:hover .squarecheck {
-  animation: slide-left 0.5s ease;
+.backgroundCards:active .squarecheck {
+  transform: translate(-11%);
   opacity: 1;
 }
 
@@ -214,21 +215,29 @@
   top: 25px;
   font-size: 1.8rem;
 }
-.backgroundCard:hover .squarecheck .circle {
+.backgroundCard:active .squarecheck .circle {
   -webkit-animation: rotate 1s linear;
   animation-duration: 200ms;
 }
 @-webkit-keyframes rotate {
   /* 100% keyframe for  clockwise. 
-       use 0% instead for anticlockwise */
+         use 0% instead for anticlockwise */
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
 
-.backgroundCards:hover {
-  animation-timing-function: linear;
-  animation: slide-left 0.5s ease;
+.backgroundCards:active {
+  animation: petit 0.3s forwards;
+}
+@media (max-width: 1203px) {
+  @-webkit-keyframes petit {
+    /* 100% keyframe for  clockwise. 
+         use 0% instead for anticlockwise */
+    to {
+      width: 68%;
+    }
+  }
 }
 
 /***Section Commander****/
