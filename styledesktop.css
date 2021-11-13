@@ -61,28 +61,33 @@
     align-items: center;
     justify-content: center;
   }
-  .loading {
-    padding: 100px;
-    border: 6px solid #ccc;
-    border-right-color: rgb(236, 13, 87);
-    border-radius: 104px;
-    -webkit-animation: rotate 1s infinite linear;
-    /* left, top and position just for the demo! */
-    position: absolute;
-    left: 43%;
-    top: 35%;
-  }
 
-  .oh {
+  h1 {
+    font: 2em;
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 1px;
-    margin-right: 10px;
+    margin-bottom: 40px;
   }
-  @-webkit-keyframes rotate {
-    /* 100% keyframe for  clockwise. 
-       use 0% instead for anticlockwise */
-    100% {
+
+  #loading {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 6px solid rgba(192, 34, 245, 0.3);
+    border-radius: 50%;
+    border-top-color: rgb(82, 4, 56);
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    position: fixed;
+  }
+
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
       -webkit-transform: rotate(360deg);
     }
   }
@@ -262,7 +267,7 @@
     font-size: 4rem;
     position: relative;
     right: 18%;
-    bottom: 20px;
+    bottom: 10px;
   }
 
   /***Section Restaurant***/

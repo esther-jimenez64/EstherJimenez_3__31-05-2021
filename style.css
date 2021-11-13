@@ -29,6 +29,7 @@
 body {
   margin: 0 0 0 0;
 }
+
 /**Header**/
 #logo img {
   width: 60%;
@@ -275,6 +276,7 @@ figcaption :nth-child(2) {
   border: transparent;
   font-size: 1rem;
 }
+
 /***Footer***/
 footer {
   background-color: rgb(51, 51, 51); /*background de footer*/
@@ -294,7 +296,6 @@ footer h3 {
   text-decoration: none; /*tout les paragraphe cliquable*/
   color: white;
 }
-
 
 .footerText {
   /*tout les titres footer*/

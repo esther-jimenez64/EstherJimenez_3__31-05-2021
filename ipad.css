@@ -1,4 +1,63 @@
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  @-webkit-keyframes loader {
+    100% {
+      opacity: 0;
+      z-index: -5;
+    }
+  }
+
+  @keyframes loader {
+    100% {
+      opacity: 0;
+      z-index: -5;
+    }
+  }
+  .loader {
+    -webkit-animation: loader 1s;
+    animation: loader 1s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 1.3em;
+    font-family: "Shrikhand-Regular.ttf";
+    font-weight: lighter;
+    margin-bottom: 10px;
+  }
+
+  #loading {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 6px solid rgba(192, 34, 245, 0.3);
+    border-radius: 50%;
+    border-top-color: rgb(82, 4, 56);
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    position: fixed;
+  }
+
+  @keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
   /**Header**/
   #logo img {
     /*dimension logo*/
