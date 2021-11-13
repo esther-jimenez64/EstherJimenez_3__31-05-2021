@@ -206,47 +206,74 @@
     bottom: 28px;
   }
 
-  .squarecheck {
-    width: 80px;
-    height: 76px;
-    background: #99e2d0;
-    border-radius: 0px 10px 10px 0px;
-    position: absolute;
-    top: 1px;
-    right: 2%;
-    left: 94%;
-    transition: transform 200ms ease-in-out linear;
+  .card {
+    height: 100px;
+    width: 80%;
+    box-shadow: 0 0 30px grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .container {
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    word-wrap: normal;
-    z-index: 1;
-    opacity: 0;
-    box-shadow: #ddddddee 8px 8px 8px 8px;
-    transition-duration: 0.9s;
   }
 
-  .backgroundCards:hover .squarecheck {
-    opacity: 1;
-    translate: (-40%);
+  .container div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
-  .fa-chevron-circle-down::before {
-    z-index: 1;
-    color: white;
+  .plat {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .prix {
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+    height: 52px;
+    padding: 0 20px 0 5px;
+    margin-left: auto;
+    font-weight: 600;
+  }
+
+  .check {
     position: relative;
-    left: 25px;
-    top: 25px;
-    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #99e2d0;
+    min-width: 0px;
+    overflow: hidden;
+    transform-origin: right;
+    border-radius: 0 20px 20px 0;
+    transition: 400ms linear;
   }
 
-  .backgroundCards:hover .fa-chevron-circle-down {
-    -webkit-animation: rotate 300ms linear;
+  .card:hover .check {
+    min-width: 100px;
   }
-  @-webkit-keyframes rotate {
-    /* 100% keyframe for  clockwise. 
-         use 0% instead for anticlockwise */
-    100% {
-      -webkit-transform: rotate (1turn);
-    }
+
+  .card:hover .icone {
+    transition: 400ms ease-in-out;
+    transform: rotate(1turn);
+  }
+
+  .icone {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
   }
 
   .backgroundCards:hover {
