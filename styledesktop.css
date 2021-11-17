@@ -208,6 +208,9 @@
     padding-right: 1px;
   }
 
+  .contenuIcon {
+    margin-right: -60px;
+  }
   .BoutonTitre {
     /*background et forme des cards fonctionnement*/
     border-radius: 30px 20px 20px 30px;
@@ -216,7 +219,7 @@
     height: 150px;
     cursor: pointer;
     display: flex;
-    width: 22%;
+    width: 70%;
     justify-content: center;
     margin-left: 0;
     padding-top: 30px;
@@ -236,17 +239,19 @@
     background-color: #9356dc;
     color: white; /*All Button Number*/
     padding: 3px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 18px;
-    height: 35px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.2rem;
     font-family: "Roboto-Bold.ttf";
-    width: 10px;
     z-index: 1;
-    margin-bottom: 7%;
+    position: relative;
+    top: 123px;
     cursor: pointer;
     z-index: 1;
+    margin-left: 3%;
   }
 
   #Fonctionnement a {
@@ -266,8 +271,9 @@
     /*bouger les icon*/
     font-size: 4rem;
     position: relative;
-    right: 18%;
-    bottom: 10px;
+    right: 1%;
+    left: 25%;
+    bottom: 150px;
   }
 
   /***Section Restaurant***/
@@ -378,7 +384,6 @@
     width: 70px;
   }
 
-  
   /***Footer***/
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
