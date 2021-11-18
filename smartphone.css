@@ -192,7 +192,6 @@
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
   }
   /***Section Fonctionnement***/
-
   #Fonctionnement {
     background-color: transparent; /*div englobante*/
   }
@@ -367,7 +366,6 @@
     font-size: 1rem;
   }
   /***Footer***/
-
   footer {
     height: 220px;
     padding-top: 2%;

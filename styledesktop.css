@@ -225,12 +225,11 @@
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms;
-}
   }
 
   .BoutonTitre:hover {
     box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-    background-color: #c9aeeb;
+    background-color: #e3adf7;
   }
 
   .BoutonNumero {
@@ -349,11 +348,12 @@
     /*icon ceour*/
     font-size: 2.4rem;
   }
-  .heart {
+  .heart,.heart2{
     position: relative; /*icon Heart*/
     margin-right: 4%;
     bottom: 30px;
   }
+  
   .heart .fa-heart {
     color: #fff;
     border-radius: 50%;
@@ -369,7 +369,7 @@
     font-weight: bold;
     transition: color 1.2s ease-out;
   }
-
+   
   .nouveau {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
