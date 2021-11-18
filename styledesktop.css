@@ -209,7 +209,7 @@
   }
 
   .contenuIcon {
-    margin-right: -60px;
+    margin-right: -40px;
   }
   .BoutonTitre {
     /*background et forme des cards fonctionnement*/
@@ -219,13 +219,13 @@
     height: 150px;
     cursor: pointer;
     display: flex;
-    width: 70%;
+    width: 69%;
     justify-content: center;
-    margin-left: 0;
     padding-top: 30px;
     transform: scale(1);
     transition-property: transform;
     transition-duration: 400ms;
+}
   }
 
   .BoutonTitre:hover {
@@ -271,9 +271,9 @@
     /*bouger les icon*/
     font-size: 4rem;
     position: relative;
-    right: 1%;
-    left: 25%;
     bottom: 150px;
+    margin-left: 130px;
+    margin-right: 5%;
   }
 
   /***Section Restaurant***/
