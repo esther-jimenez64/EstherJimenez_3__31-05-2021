@@ -145,20 +145,47 @@
     bottom: 40px;
   }
 
-  .heart .fa-heart {
-    color: #fff;
-    border-radius: 50%;
-    padding: 0.2em;
-  }
   .heart .fa-heart::before {
     content: "\f004";
-    transition: color 1s ease-out;
   }
-  .heart .fa-heart:active::before {
+
+  .heart2 .fa-heart::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
+    opacity: 0;
+    font-size: 1.9rem;
+  }
+
+  .heart2 .fa-heart:active::before {
+    animation: 3s essai forwards;
+  }
+  .corazon:active .heart .fa-heart::before {
+    animation: 3s cora forwards;
+  }
+  @keyframes essai {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .heart2 {
+    position: relative;
+    bottom: 58px;
+    margin-right: 8%;
+  }
+
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
   }
 
   .nouveau {
@@ -353,20 +380,47 @@
     bottom: 40px;
   }
 
-  .heart .fa-heart {
-    color: #fff;
-    border-radius: 50%;
-    padding: 0.2em;
-  }
   .heart .fa-heart::before {
     content: "\f004";
-    transition: color 1s ease-out;
   }
-  .heart .fa-heart:hover::before {
+
+  .heart2 .fa-heart::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
+    opacity: 0;
+    font-size: 1.9rem;
+  }
+
+  .heart2 .fa-heart:active::before {
+    animation: 3s essai forwards;
+  }
+  .corazon:active .heart .fa-heart::before {
+    animation: 3s cora forwards;
+  }
+  @keyframes essai {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .heart2 {
+    position: relative;
+    bottom: 58px;
+    margin-right: 8%;
+  }
+
+  .heart .fa-heart {
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2em;
   }
 
   .nouveau {

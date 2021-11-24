@@ -63,22 +63,6 @@
     margin-top: 10px;
   }
 
-  .heart .fa-heart:before {
-    /*icon ceour*/
-    color: rgb(36, 36, 36);
-    font-size: 1.7rem;
-    font-weight: normal;
-  }
-  .heart {
-    /*icon Heart*/
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 389px;
-    right: 20px;
-    z-index: 1;
-  }
   .numero {
     display: flex;
     align-items: center;
@@ -88,204 +72,194 @@
     right: 15px;
     z-index: 1;
   }
-}
-.heart .fa-heart {
-  color: #fff;
-  border-radius: 50%;
-  padding: 0.2em;
-}
-.heart .fa-heart::before {
-  content: "\f004";
-  transition: color 1s ease-out;
-}
-.heart .fa-heart:active::before {
-  color: violet;
-  cursor: pointer;
-  font-weight: bold;
-  transition: color 1.2s ease-out;
-}
 
-#blockMenu {
-  background-color: rgba(238, 238, 238, 0.993);
-  border-radius: 40px 40px 0px 0px;
-  padding-top: 20px;
-  height: 1120px; /*id qui englobe toute la section plat */
-  width: 100%;
-  position: relative;
-  bottom: 105px;
-}
-/*Cards*/
-.entre {
-  position: relative;
-  top: 25px; /*class englobante pour bouger les cards*/
-  margin-left: 5%;
-  margin-bottom: 40px;
-  justify-content: space-between;
-}
+  .fa-heart:before {
+    /*icon ceour*/
+    font-size: 1.7rem;
+  }
 
-.entre a {
-  text-decoration: none;
-  color: black; /*les lien de touts les plats*/
-  font-family: "roboto", sans-serif;
-}
+  #blockMenu {
+    background-color: rgba(238, 238, 238, 0.993);
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 20px;
+    height: 1120px; /*id qui englobe toute la section plat */
+    width: 100%;
+    position: relative;
+    bottom: 105px;
+  }
+  /*Cards*/
+  .entre {
+    position: relative;
+    top: 25px; /*class englobante pour bouger les cards*/
+    margin-left: 1%;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
 
-.entre h3 {
-  font-size: 1rem;
-  font-family: "roboto", sans-serif; /*titre entré*/
-  color: #0f0f0f;
-  font-weight: 200;
-  margin-bottom: 30px;
-  margin-top: 45px;
-}
-.entre h3:hover {
-  border-bottom: solid 3px #99e2d0;
-  max-width: 8%;
-  padding-bottom: 5px; /*les titre de section au survol*/
-}
+  .entre a {
+    text-decoration: none;
+    color: black; /*les lien de touts les plats*/
+    font-family: "roboto", sans-serif;
+  }
 
-.delay {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 80ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-.delay2 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 500ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
+  .entre h3 {
+    font-size: 1rem;
+    font-family: "roboto", sans-serif; /*titre entré*/
+    color: #0f0f0f;
+    font-weight: 200;
+    margin-bottom: 3px;
+    margin-top: 45px;
+    margin-left: 5%;
+  }
+  .entre h3:hover {
+    border-bottom: solid 3px #99e2d0;
+    max-width: 8%;
+    padding-bottom: 5px; /*les titre de section au survol*/
+  }
 
-.delay3 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 800ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay4 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 1000ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay5 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 1200ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay6 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 1400ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay7 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 1800ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay8 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 2000ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.delay9 {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
-  animation-delay: 2200ms;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn {
-  0% {
+  .delay {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 80ms;
     opacity: 0;
+    animation-fill-mode: forwards;
   }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
+  .delay2 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 500ms;
     opacity: 0;
+    animation-fill-mode: forwards;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-webkit-keyframes fadeIn {
-  0% {
+  .delay3 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 800ms;
     opacity: 0;
+    animation-fill-mode: forwards;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-o-keyframes fadeIn {
-  0% {
+  .delay4 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1000ms;
     opacity: 0;
+    animation-fill-mode: forwards;
   }
-  100% {
-    opacity: 1;
-  }
-}
 
-@-ms-keyframes fadeIn {
-  0% {
+  .delay5 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1200ms;
     opacity: 0;
+    animation-fill-mode: forwards;
   }
-  100% {
-    opacity: 1;
+
+  .delay6 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1400ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay7 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1800ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay8 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay9 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2200ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
-
 @media screen and (min-width: 50px) and (max-width: 1202px) {
   .card {
     height: 85px;
@@ -373,90 +347,152 @@
     font-size: 2rem;
     color: white;
   }
-}
-/***Section Commander****/
 
-.BoutonExplore a {
-  font-size: 1.1rem;
-  width: 400px;
-  text-decoration: none;
-  color: white;
-  font-family: "Roboto-Bold.ttf";
-  cursor: pointer;
-}
+  .heart {
+    position: absolute; /*icon Heart*/
+    top: 0px;
+    left: 0px;
+    font-size: 1.7rem;
+    color: rgb(53, 53, 53);
+    opacity: 1;
+  }
 
-.BoutonExplore {
-  border-radius: 10px/20px;
-  border-radius: 100px 100px 100px 97px;
-  background-image: radial-gradient(
-    ellipse farthest-corner at 20px 0,
-    #ff79da 0%,
-    #9356dc 100%
-  ); /* le background du bouton recherche   */
-  height: 24px;
-  width: 45%;
-  text-align: center;
-  padding: 17px;
-  margin-left: 25%;
-  position: relative;
-  bottom: 0.5rem;
-}
+  .heart .fa-heart::before {
+    content: "\f004";
+  }
 
-.BoutonExplore:hover {
-  background: radial-gradient(
-    ellipse farthest-corner at 20px 0,
-    #ff79da 0%,
-    #b195d4 100%
-  );
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-}
+  .heart2 .fa-heart::before {
+    color: violet;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 1.2s ease-out;
+    opacity: 0;
+    font-size: 1.8rem;
+  }
 
-/***Footer***/
-footer {
-  background-color: rgb(51, 51, 51); /*background de footer*/
-  padding-top: 8px;
-  padding-bottom: 0px;
-  margin-top: 50px;
-  margin-bottom: 0;
-  height: 210px;
-  width: 100%;
-  position: absolute;
-}
-footer h3 {
-  font-family: "Shrikhand-Regular.ttf";
-  font-weight: lighter;
-  margin-left: 6%;
-  color: rgba(235, 235, 235, 0.897);
-  font-size: 1.4rem;
-  margin-bottom: 1%;
-}
+  .heart2 .fa-heart:active::before {
+    animation: 3s essai forwards;
+  }
+  .corazon:active .heart .fa-heart::before {
+    animation: 3s cora forwards;
+  }
+  @keyframes essai {
+    100% {
+      opacity: 1;
+    }
+  }
 
-.footerText a {
-  text-decoration: none; /*tout les paragraphe cliquable*/
-  color: white;
-}
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
+  }
 
-.footer a,
-footer a :hover {
-  text-decoration: none;
-  border: transparent;
-}
-.footerText {
-  margin-left: 6%;
-  margin-top: 1%;
-  color: white;
-  line-height: 150%;
-  font-size: 18px;
-}
+  .heart2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    font-size: 1.7rem;
+  }
+  .corazon {
+    position: absolute;
+    z-index: 100;
+    height: 50px;
+    width: 50px;
+    right: 10px;
+    top: 30px;
+  }
 
-.footerBlock {
-  display: flex;
-}
+  .heart .fa-heart {
+    border-radius: 50%;
 
-.ustensils {
-  padding: 0 11px 0 5px;
-}
+    color: rgb(53, 53, 53);
+  }
+  /***Section Commander****/
 
-.hands {
-  padding-right: 10px;
+  .BoutonExplore a {
+    font-size: 1.1rem;
+    width: 400px;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Bold.ttf";
+    cursor: pointer;
+  }
+
+  .BoutonExplore {
+    border-radius: 10px/20px;
+    border-radius: 100px 100px 100px 97px;
+    background-image: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #9356dc 100%
+    ); /* le background du bouton recherche   */
+    height: 24px;
+    width: 45%;
+    text-align: center;
+    padding: 17px;
+    margin-left: 25%;
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .BoutonExplore:hover {
+    background: radial-gradient(
+      ellipse farthest-corner at 20px 0,
+      #ff79da 0%,
+      #b195d4 100%
+    );
+    box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /***Footer***/
+  footer {
+    background-color: rgb(51, 51, 51); /*background de footer*/
+    padding-top: 8px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 210px;
+    width: 100%;
+    position: absolute;
+  }
+  footer h3 {
+    font-family: "Shrikhand-Regular.ttf";
+    font-weight: lighter;
+    margin-left: 6%;
+    color: rgba(235, 235, 235, 0.897);
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+  }
+
+  .footerText a {
+    text-decoration: none; /*tout les paragraphe cliquable*/
+    color: white;
+  }
+
+  .footer a,
+  footer a :hover {
+    text-decoration: none;
+    border: transparent;
+  }
+  .footerText {
+    margin-left: 6%;
+    margin-top: 1%;
+    color: white;
+    line-height: 150%;
+    font-size: 18px;
+  }
+
+  .footerBlock {
+    display: flex;
+  }
+
+  .ustensils {
+    padding: 0 11px 0 5px;
+  }
+
+  .hands {
+    padding-right: 10px;
+  }
 }

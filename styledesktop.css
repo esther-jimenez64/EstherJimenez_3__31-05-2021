@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1900px) {
+@media screen and (min-width: 1024px) and (max-width: 2600px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -348,12 +348,19 @@
     /*icon ceour*/
     font-size: 2.4rem;
   }
-  .heart,.heart2{
+  .heart,
+  .heart2 {
     position: relative; /*icon Heart*/
     margin-right: 4%;
     bottom: 30px;
   }
-  
+
+  .heart2 {
+    position: relative;
+    bottom: 47.2px;
+    margin-right: 3.8%;
+  }
+
   .heart .fa-heart {
     color: #fff;
     border-radius: 50%;
@@ -361,15 +368,35 @@
   }
   .heart .fa-heart::before {
     content: "\f004";
-    transition: color 1s ease-out;
   }
-  .heart .fa-heart:hover::before {
+
+  .heart2 .fa-heart::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
+    opacity: 0;
+    font-size: 2.6rem;
   }
-   
+
+  .heart2 .fa-heart:hover::before {
+    animation: 4s essai forwards;
+  }
+  .corazon:hover .heart .fa-heart::before {
+    animation: 5s cora forwards;
+  }
+  @keyframes essai {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
+  }
+
   .nouveau {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
