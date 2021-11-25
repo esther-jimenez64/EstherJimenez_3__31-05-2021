@@ -85,10 +85,10 @@
     font-size: 2rem;
   }
 
-  .heart2 .fa-heart:active::before {
+  .heart2 .fa-heart:hover::before {
     animation: 3s essai forwards;
   }
-  .corazon:active .heart .fa-heart::before {
+  .corazon:hover .heart .fa-heart::before {
     animation: 3s cora forwards;
   }
   @keyframes essai {

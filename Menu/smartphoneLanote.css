@@ -95,7 +95,7 @@
     margin-bottom: 30px;
     margin-top: 45px;
   }
-  h3:hover {
+  .entre h3:hover {
     border-bottom: solid 3px #99e2d0;
     width: 8%;
     padding-bottom: 5px; /*les titre de section au survol*/
@@ -377,6 +377,17 @@
       -o-animation: fadeIn ease 2s;
       -ms-animation: fadeIn ease 2s;
       animation-delay: 2200ms;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    .delay10 {
+      animation: fadeIn ease 2s;
+      -webkit-animation: fadeIn ease 2s;
+      -moz-animation: fadeIn ease 2s;
+      -o-animation: fadeIn ease 2s;
+      -ms-animation: fadeIn ease 2s;
+      animation-delay: 2400ms;
       opacity: 0;
       animation-fill-mode: forwards;
     }
