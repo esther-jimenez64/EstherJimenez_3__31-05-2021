@@ -1,4 +1,4 @@
-@media screen and (min-width: 810px) and (max-width: 1202px) {
+@media screen and (min-width: 812px) and (max-width: 1202px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -58,18 +58,11 @@
 
   h2 {
     font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
-    margin-left: 5%;
+    margin-left: 1px;
     z-index: 1;
     display: flex;
     position: relative;
     bottom: 1.5rem;
-  }
-
-  .heart .fa-heart:before {
-    /*icon ceour*/
-    color: rgb(36, 36, 36);
-    font-size: 2.1rem;
-    font-weight: normal;
   }
 
   #blockMenu {
@@ -86,7 +79,7 @@
   .entre {
     position: relative;
     top: 25px; /*class englobante pour bouger les cards*/
-    margin-left: 5%;
+    right: 1px;
     margin-bottom: 40px;
     justify-content: space-between;
   }
@@ -104,141 +97,310 @@
     font-weight: 200;
     margin-bottom: 30px;
     margin-top: 30px;
+    margin-left: 15px;
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
     width: 8%;
     padding-bottom: 5px; /*les titre de section au survol*/
   }
-  .backgroundCards :first-child {
-    font-weight: bold; /*Titre 1 de cards */
+
+  .delay {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 80ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
   }
-  .backgroundCards {
+  .delay2 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 500ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
     position: relative;
-    right: 5%; /*position et class englobante des cards*/
-    border-radius: 15px 15px 15px 15px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: #ddddddee 8px 8px 8px 8px;
-    padding: 10px;
-    height: 55px;
-    width: 100ù;
-    margin-left: 2%;
-    margin-bottom: 20px;
-  }
-  .backgroundCards :last-child {
-    font-weight: bold; /*les prix*/
-    color: rgb(68, 68, 68);
+    bottom: 1px;
   }
 
-  .backgroundCards p {
-    /*espace entre les p*/
-    margin: 8px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-
-  .numero {
-    display: flex;
-    align-items: center; /*position des prix*/
-    justify-content: flex-end;
+  .delay3 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 800ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
     position: relative;
-    bottom: 27px;
-    right: 15px;
-    z-index: 1;
-  }
-  .tailleP {
-    font-size: 0.9rem; /*taille des p qui depasser le prix*/
+    bottom: 1px;
   }
 
-  .heart .fa-heart:before {
-    /*icon ceour*/
-    color: rgb(36, 36, 36);
-    font-size: 2.1rem;
-    font-weight: normal;
+  .delay4 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    position: relative;
+    bottom: 1px;
+  }
+
+  .delay5 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1200ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay6 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1400ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay7 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 1800ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay8 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2000ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  .delay9 {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    animation-delay: 2200ms;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   .heart {
-    /*icon Heart*/
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 209px;
-    right: 2%;
-
-    z-index: 1;
+    position: absolute; /*icon Heart*/
+    top: 0px;
+    left: 0px;
+    font-size: 2rem;
+    color: rgb(53, 53, 53);
+    opacity: 1;
   }
 
-  .heart .fa-heart {
-    color: #fff;
-    border-radius: 50%;
-    padding: 0.2em;
-  }
   .heart .fa-heart::before {
     content: "\f004";
-    transition: color 1s ease-out;
   }
-  .heart .fa-heart:active::before {
+
+  .heart2 .fa-heart::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
-  }
-
-  .squarecheck {
-    width: 80px;
-    height: 74px;
-    background: #99e2d0;
-    border-radius: 0px 10px 10px 0px;
-    position: absolute;
-    top: 1px;
-    right: 2%;
-    left: 100%;
-    transition: transform 400ms ease-in-out linear;
-    white-space: nowrap;
-    word-wrap: normal;
-    z-index: 1;
     opacity: 0;
-    box-shadow: #ddddddee 8px 8px 8px 8px;
-    transition-duration: 0.9s;
+    font-size: 2rem;
   }
 
-  .backgroundCards:hover .squarecheck {
-    transform: translate(-11%);
-    opacity: 1;
+  .heart2 .fa-heart:active::before {
+    animation: 3s essai forwards;
   }
-
-  .fa-chevron-circle-down::before {
-    z-index: 1;
-    color: white;
-    position: relative;
-    left: 25px;
-    top: 25px;
-    font-size: 1.8rem;
+  .corazon:active .heart .fa-heart::before {
+    animation: 3s cora forwards;
   }
-  .backgroundCard:hover .squarecheck .circle {
-    -webkit-animation: rotate 1s linear;
-    animation-duration: 200ms;
-  }
-  @-webkit-keyframes rotate {
-    /* 100% keyframe for  clockwise. 
-           use 0% instead for anticlockwise */
+  @keyframes essai {
     100% {
-      -webkit-transform: rotate(360deg);
+      opacity: 1;
     }
   }
 
-  .backgroundCards:hover {
-    animation: petit 0.3s forwards;
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
   }
 
-  @-webkit-keyframes petit {
-    /* 100% keyframe for  clockwise. 
-           use 0% instead for anticlockwise */
-    to {
-      width: 68%;
-    }
+  .heart2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    font-size: 2rem;
+  }
+  .corazon {
+    position: absolute;
+    z-index: 100;
+    height: 50px;
+    width: 50px;
+    right: 18px;
+    top: 28px;
+  }
+
+  .heart .fa-heart {
+    border-radius: 50%;
+
+    color: rgb(53, 53, 53);
+  }
+
+  .card {
+    height: 85px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: #ddddddee 8px 8px 8px 8px;
+    -webkit-animation-name: fadeInOpacity;
+    animation-name: fadeInOpacity;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+
+  .container {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-animation-name: fadeInOpacity;
+    animation-name: fadeInOpacity;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+
+  .container div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .plat {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .prix {
+    display: flex;
+    display: flex;
+    align-items: flex-end;
+    height: 52px;
+    padding: 0 20px 0 5px;
+    margin-left: auto;
+    font-weight: 600;
+  }
+
+  .check {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #99e2d0;
+    min-width: 0px;
+    overflow: hidden;
+    transform-origin: right;
+    border-radius: 0 20px 20px 0;
+    transition: 400ms linear;
+  }
+
+  .card:hover .check {
+    min-width: 100px;
+  }
+
+  .card:hover .icone {
+    transition: 400ms ease-in-out;
+    transform: rotate(1turn);
+  }
+
+  .icone {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
   }
 
   /***Section Commander****/
@@ -265,8 +427,7 @@
     text-align: center;
     padding: 17px;
     margin-left: 25%;
-    position: relative;
-    bottom: 2rem;
+    margin-top: 20px;
     transition-duration: 400ms;
   }
 
@@ -328,221 +489,4 @@
   .hands {
     padding-right: 15px;
   }
-}
-
-@media screen and (min-width: 50px) and (max-width: 356px) {
-  body {
-    margin: 0px;
-  }
-  /**Header**/
-  #logo img {
-    width: 40%; /*img logo */
-  }
-
-  #logo {
-    position: relative; /*position du logo*/
-    left: 28%;
-    top: 17px;
-  }
-
-  .fa-arrow-left:before  /*icon Fléche*/ {
-    color: rgb(31, 30, 30);
-    position: relative;
-    left: 200px;
-  }
-
-  .FlecheIcon  /*move Icon arrow*/ {
-    position: relative;
-    bottom: 20px;
-    left: 7%;
-    font-size: 1.1rem;
-  }
-
-  #photoBackground {
-    /*dimension image */
-    width: 100%;
-    height: 250px;
-  }
-  #photoBackground img {
-    object-fit: cover;
-    height: 300px;
-  }
-
-  /***Section À la française***/
-
-  h2 {
-    font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
-    margin-left: 5%;
-    z-index: 1;
-    display: flex;
-    position: relative;
-    bottom: 1.7rem;
-    margin-top: 10px;
-  }
-
-  .heart .fa-heart:before {
-    /*icon ceour*/
-    color: rgb(36, 36, 36);
-    font-size: 1.8rem;
-    font-weight: normal;
-  }
-  div.heart {
-    /*icon Heart*/
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 202px;
-    right: 10px;
-    z-index: 1;
-  }
-  .numero {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 27px;
-    right: 15px;
-    z-index: 1;
-  }
-}
-.heart .fa-heart {
-  color: #fff;
-  border-radius: 50%;
-  padding: 0.2em;
-}
-.heart .fa-heart::before {
-  content: "\f004";
-  transition: color 1s ease-out;
-}
-.heart .fa-heart:active::before {
-  color: violet;
-  cursor: pointer;
-  font-weight: bold;
-  transition: color 1.2s ease-out;
-}
-
-#blockMenu {
-  background-color: rgba(238, 238, 238, 0.993);
-  border-radius: 40px 40px 0px 0px;
-  padding-top: 20px;
-  height: 1120px; /*id qui englobe toute la section plat */
-  width: 100%;
-  position: relative;
-  bottom: 105px;
-}
-/*Cards*/
-.entre {
-  position: relative;
-  top: 25px; /*class englobante pour bouger les cards*/
-  margin-right: 7%;
-  margin-bottom: 40px;
-  justify-content: space-between;
-}
-
-.entre a {
-  text-decoration: none;
-  color: black; /*les lien de touts les plats*/
-  font-family: "roboto", sans-serif;
-}
-
-.entre h3 {
-  font-size: 1rem;
-  font-family: "roboto", sans-serif; /*titre entré*/
-  color: #0f0f0f;
-  font-weight: 200;
-  margin-bottom: 30px;
-  margin-top: 45px;
-}
-h3:hover {
-  border-bottom: solid 3px #99e2d0;
-  width: 8%;
-  padding-bottom: 5px; /*les titre de section au survol*/
-}
-
-/***Section Commander****/
-
-.BoutonExplore a {
-  font-size: 1.1rem;
-  width: 400px;
-  text-decoration: none;
-  color: white;
-  font-family: "Roboto-Bold.ttf";
-  cursor: pointer;
-}
-
-.BoutonExplore {
-  border-radius: 10px/20px;
-  border-radius: 100px 100px 100px 97px;
-  background-image: radial-gradient(
-    ellipse farthest-corner at 20px 0,
-    #ff79da 0%,
-    #9356dc 100%
-  ); /* le background du bouton recherche   */
-  height: 24px;
-  width: 45%;
-  text-align: center;
-  padding: 17px;
-  margin-left: 25%;
-  position: relative;
-  bottom: 2rem;
-  transition-duration: 400ms;
-}
-
-.BoutonExplore:hover {
-  background: radial-gradient(
-    ellipse farthest-corner at 20px 0,
-    #ff79da 0%,
-    #b195d4 100%
-  );
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
-}
-
-/***Footer***/
-footer {
-  background-color: rgb(51, 51, 51); /*background de footer*/
-  padding-top: 8px;
-  padding-bottom: 0px;
-  margin-top: 50px;
-  margin-bottom: 0;
-  height: 210px;
-  width: 100%;
-  position: absolute;
-}
-footer h3 {
-  font-family: "Shrikhand-Regular.ttf";
-  font-weight: lighter;
-  margin-left: 6%;
-  color: rgba(235, 235, 235, 0.897);
-  font-size: 1.4rem;
-}
-
-.footerText a {
-  text-decoration: none; /*tout les paragraphe cliquable*/
-  color: white;
-}
-
-.footer a,
-footer a :hover {
-  text-decoration: none;
-  border: transparent;
-}
-.footerText {
-  margin-left: 6%;
-  margin-top: 3%;
-  color: white;
-  line-height: 150%;
-  font-size: 18px;
-}
-
-.footerBlock {
-  display: flex;
-}
-
-.ustensils {
-  padding: 0 11px 0 5px;
-}
-
-.hands {
-  padding-right: 10px;
 }

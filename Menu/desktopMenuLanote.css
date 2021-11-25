@@ -63,32 +63,66 @@
     right: 2rem;
     font-size: 2rem;
   }
-  .fa-heart:before {
-    /*icon ceour*/
-    font-size: 2.4rem;
-    color: rgb(36, 36, 36);
-    font-weight: normal;
+  .heart {
+    position: absolute; /*icon Heart*/
+    top: 0px;
+    left: 0px;
+    font-size: 2rem;
+    color: rgb(53, 53, 53);
+    opacity: 1;
   }
-  div.heart {
-    position: relative; /*icon Heart*/
-    right: 1%;
-    left: 564%;
-    bottom: 245px;
-  }
-  .heart .fa-heart {
-    color: #fff;
-    border-radius: 50%;
-    padding: 0.2em;
-  }
+
   .heart .fa-heart::before {
     content: "\f004";
-    transition: color 1s ease-out;
   }
-  .heart .fa-heart:hover::before {
+
+  .heart2 .fa-heart::before {
     color: violet;
     cursor: pointer;
     font-weight: bold;
-    transition: color 1.5s ease-out;
+    transition: color 1.2s ease-out;
+    opacity: 0;
+    font-size: 2rem;
+  }
+
+  .heart2 .fa-heart:active::before {
+    animation: 3s essai forwards;
+  }
+  .corazon:active .heart .fa-heart::before {
+    animation: 3s cora forwards;
+  }
+  @keyframes essai {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes cora {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .heart2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    font-size: 2rem;
+  }
+  .corazon {
+    position: absolute;
+    z-index: 100;
+    height: 50px;
+    width: 50px;
+    right: 38px;
+    top: 28px;
+  }
+
+  .heart .fa-heart {
+    border-radius: 50%;
+
+    color: rgb(53, 53, 53);
   }
   section#blockMenu {
     background-color: rgba(245, 245, 245, 0.993);
@@ -110,7 +144,7 @@
     margin-bottom: 20px;
     width: 16%;
     margin-right: 0.1%;
-    right: 16.9%;
+    right: 15%;
   }
 
   .entre a {
@@ -128,7 +162,7 @@
     margin-top: 30px;
     width: 100%;
     position: relative;
-    left: 95%;
+    left: 70%;
   }
   h3:hover {
     border-bottom: solid 3px #99e2d0;
@@ -155,7 +189,7 @@
     opacity: 0;
     animation-fill-mode: forwards;
     position: relative;
-    bottom: 45px;
+    bottom: 1px;
   }
 
   .delay3 {
@@ -168,7 +202,7 @@
     opacity: 0;
     animation-fill-mode: forwards;
     position: relative;
-    bottom: 45px;
+    bottom: 1px;
   }
 
   .delay4 {
@@ -181,7 +215,7 @@
     opacity: 0;
     animation-fill-mode: forwards;
     position: relative;
-    bottom: 45px;
+    bottom: 1px;
   }
 
   .delay5 {
@@ -406,7 +440,7 @@
     padding: 25px;
     margin-left: 34%;
     position: relative;
-    bottom: 700px;
+    bottom: 80px;
     transition-duration: 400ms;
   }
 
@@ -423,41 +457,49 @@
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
-    padding-bottom: 47px;
-    margin-top: 10px;
-    margin-bottom: 200px;
-    height: 220px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 210px;
     width: 100%;
     position: absolute;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 3.5%;
     color: rgba(235, 235, 235, 0.897);
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-bottom: 1%;
   }
 
-  .footerText {
-    /*tout les titres de footer*/
-    line-height: 150%;
+  .footerText a {
+    text-decoration: none; /*tout les paragraphe cliquable*/
+    color: white;
   }
 
-  footer a {
-    /*enlever la decoration par défaut */
+  .footer a,
+  footer a :hover {
     text-decoration: none;
+    border: transparent;
+  }
+  .footerText {
+    margin-left: 3%;
+    margin-top: 1%;
+    color: white;
+    line-height: 150%;
+    font-size: 18px;
+  }
+
+  .footerBlock {
+    display: flex;
   }
 
   .ustensils {
-    /*icon ustensils de cuisine*/
-    padding: 0 12px 0 5px;
+    padding: 0 15px 0 5px;
   }
 
   .hands {
-    /*icon mains*/
-    padding-right: 12px;
+    padding-right: 15px;
   }
-
 }

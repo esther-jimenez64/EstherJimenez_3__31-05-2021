@@ -55,7 +55,7 @@
 
   h2 {
     font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
-    margin-left: 5%;
+    margin-left: 28px;
     z-index: 1;
     display: flex;
     position: relative;
@@ -109,7 +109,7 @@
     font-weight: 200;
     margin-bottom: 3px;
     margin-top: 45px;
-    margin-left: 5%;
+    margin-left: 20px;
   }
   .entre h3:hover {
     border-bottom: solid 3px #99e2d0;
