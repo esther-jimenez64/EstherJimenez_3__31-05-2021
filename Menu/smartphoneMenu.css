@@ -401,7 +401,7 @@
     height: 50px;
     width: 50px;
     right: 10px;
-    top: 30px;
+    top: 27px;
   }
 
   .heart .fa-heart {
@@ -475,6 +475,9 @@
   footer a :hover {
     text-decoration: none;
     border: transparent;
+  }
+  a {
+    text-decoration: none;
   }
   .footerText {
     margin-left: 6%;

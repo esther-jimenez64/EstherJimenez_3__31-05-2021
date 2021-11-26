@@ -413,12 +413,13 @@ footer a :hover {
 }
 .footerText {
   margin-left: 6%;
-  margin-top: 3%;
   color: white;
   line-height: 150%;
   font-size: 18px;
 }
-
+a {
+  text-decoration: none;
+}
 .footerBlock {
   display: flex;
 }

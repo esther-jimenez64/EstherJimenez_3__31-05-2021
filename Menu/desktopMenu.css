@@ -423,7 +423,7 @@
     text-align: center;
     padding: 25px;
     margin-left: 34%;
-    margin-bottom: 1%;
+    margin-bottom: 2.2%;
   }
 
   .BoutonExplore:hover {
@@ -445,12 +445,11 @@
     height: 210px;
     width: 100%;
     position: absolute;
-    text-decoration: none;
   }
   footer h3 {
     font-family: "Shrikhand-Regular.ttf";
     font-weight: lighter;
-    margin-left: 6%;
+    padding-left: 6%;
     color: rgba(235, 235, 235, 0.897);
     font-size: 1.4rem;
     margin-bottom: 1%;

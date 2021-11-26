@@ -288,7 +288,9 @@
     opacity: 0;
     font-size: 2rem;
   }
-
+  a {
+    text-decoration: none;
+  }
   .heart2 .fa-heart:active::before {
     animation: 3s essai forwards;
   }

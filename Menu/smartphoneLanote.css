@@ -226,6 +226,9 @@
       object-fit: cover;
     }
 
+    a {
+      text-decoration: none;
+    }
     /***Section À la française***/
 
     h2 {

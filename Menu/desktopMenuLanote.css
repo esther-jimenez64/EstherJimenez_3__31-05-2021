@@ -471,8 +471,11 @@
     color: rgba(235, 235, 235, 0.897);
     font-size: 1.4rem;
     margin-bottom: 1%;
+    text-decoration: none;
   }
-
+  a {
+    text-decoration: none;
+  }
   .footerText a {
     text-decoration: none; /*tout les paragraphe cliquable*/
     color: white;
@@ -482,6 +485,9 @@
   footer a :hover {
     text-decoration: none;
     border: transparent;
+  }
+  .footer a {
+    text-decoration: none;
   }
   .footerText {
     margin-left: 3%;
