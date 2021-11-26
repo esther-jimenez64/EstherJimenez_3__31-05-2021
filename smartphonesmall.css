@@ -165,6 +165,12 @@
   .corazon:active .heart .fa-heart::before {
     animation: 3s cora forwards;
   }
+
+  .corazon {
+    position: relative;
+    top: 15px;
+    left: 5%;
+  }
   @keyframes essai {
     100% {
       opacity: 1;
@@ -179,7 +185,7 @@
 
   .heart2 {
     position: relative;
-    bottom: 58px;
+    bottom: 56px;
     margin-right: 8%;
   }
 
@@ -197,7 +203,7 @@
     padding: 6px 15px;
     position: absolute;
     right: 0.2px;
-    bottom: 228px;
+    bottom: 275px;
     border: transparent;
     font-size: 1rem;
   }

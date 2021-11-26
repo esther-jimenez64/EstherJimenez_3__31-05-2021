@@ -238,7 +238,7 @@
     position: relative; /*icon Heart*/
     font-size: 1.7rem;
     color: rgb(53, 53, 53);
-    margin-right: 6%;
+    margin-right: 0.1%;
     bottom: 40px;
   }
 
@@ -276,7 +276,7 @@
   .heart2 {
     position: relative;
     bottom: 58px;
-    margin-right: 6%;
+    margin-right: 0.1%;
   }
 
   .heart .fa-heart {

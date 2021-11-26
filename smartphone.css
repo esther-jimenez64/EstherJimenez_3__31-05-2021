@@ -371,7 +371,7 @@
 
   .heart2 {
     position: relative;
-    bottom: 58px;
+    bottom: 56px;
     margin-right: 5.7%;
   }
 
@@ -380,7 +380,11 @@
     border-radius: 50%;
     padding: 0.2em;
   }
-
+  .corazon {
+    position: relative;
+    top: 15px;
+    left: 1%;
+  }
   .nouveau {
     font-family: "Roboto-Bold.ttf";
     color: #1f997c;
@@ -389,7 +393,7 @@
     padding: 6px 15px;
     position: absolute;
     right: 0.2px;
-    bottom: 225px;
+    bottom: 275px;
     border: transparent;
     font-size: 1rem;
   }
