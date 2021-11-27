@@ -109,20 +109,20 @@
   }
   .delay {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 80ms;
     opacity: 0;
     animation-fill-mode: forwards;
   }
   .delay2 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 500ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -132,10 +132,10 @@
 
   .delay3 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 800ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -145,10 +145,10 @@
 
   .delay4 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 1000ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -158,10 +158,10 @@
 
   .delay5 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 1200ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -169,10 +169,10 @@
 
   .delay6 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 1400ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -180,10 +180,10 @@
 
   .delay7 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 1800ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -191,10 +191,10 @@
 
   .delay8 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 2000ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -202,10 +202,10 @@
 
   .delay9 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 2200ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -213,10 +213,10 @@
 
   .delay10 {
     animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
+    animation: fadeIn ease 2s;
     animation-delay: 2400ms;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -231,7 +231,7 @@
     }
   }
 
-  @-moz-keyframes fadeIn {
+  @keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -240,7 +240,7 @@
     }
   }
 
-  @-webkit-keyframes fadeIn {
+  @keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -249,7 +249,7 @@
     }
   }
 
-  @-o-keyframes fadeIn {
+  @keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -258,7 +258,7 @@
     }
   }
 
-  @-ms-keyframes fadeIn {
+  @keyframes fadeIn {
     0% {
       opacity: 0;
     }
@@ -342,13 +342,13 @@
     cursor: pointer;
     margin-top: 10px;
     box-shadow: #ddddddee 8px 8px 8px 8px;
-    -webkit-animation-name: fadeInOpacity;
     animation-name: fadeInOpacity;
-    -webkit-animation-iteration-count: 1;
+    animation-name: fadeInOpacity;
     animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease-in;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    -webkit-animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
     animation-duration: 2s;
   }
 
@@ -356,13 +356,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    -webkit-animation-name: fadeInOpacity;
     animation-name: fadeInOpacity;
-    -webkit-animation-iteration-count: 1;
+    animation-name: fadeInOpacity;
     animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease-in;
+    animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    -webkit-animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
     animation-duration: 2s;
   }
 

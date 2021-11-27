@@ -31,7 +31,7 @@
     margin: 0;
   }
 
-  @-webkit-keyframes loader {
+  @keyframes loader {
     100% {
       opacity: 0;
       z-index: -5;
@@ -45,11 +45,11 @@
     }
   }
   .loader {
-    -webkit-animation: loader 1s;
     animation: loader 1s;
-    -webkit-animation-delay: 2s;
+    animation: loader 1s;
     animation-delay: 2s;
-    -webkit-animation-fill-mode: both;
+    animation-delay: 2s;
+    animation-fill-mode: both;
     animation-fill-mode: both;
     position: fixed;
     height: 100%;
@@ -77,18 +77,18 @@
     border-radius: 50%;
     border-top-color: rgb(82, 4, 56);
     animation: spin 1s ease-in-out infinite;
-    -webkit-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
     position: fixed;
   }
 
   @keyframes spin {
     to {
-      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
     }
   }
-  @-webkit-keyframes spin {
+  @keyframes spin {
     to {
-      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
     }
   }
   /**Header**/
