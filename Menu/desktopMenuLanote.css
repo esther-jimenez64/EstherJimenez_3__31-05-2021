@@ -77,7 +77,6 @@
   }
 
   .heart2 .fa-heart::before {
-    color: violet;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
@@ -94,6 +93,9 @@
   @keyframes essai {
     100% {
       opacity: 1;
+      background: -webkit-linear-gradient(#9c47fc, #ff79da);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 

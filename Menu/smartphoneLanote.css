@@ -471,6 +471,9 @@
     @keyframes essai {
       100% {
         opacity: 1;
+        background: -webkit-linear-gradient(#9c47fc, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     }
 
