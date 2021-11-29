@@ -376,6 +376,9 @@
   }
 
   .heart2 .fa-heart::before {
+    background: -webkit-linear-gradient(#9c47fc, #ff79da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     cursor: pointer;
     font-weight: bold;
     transition: color 1.2s ease-out;
@@ -385,16 +388,14 @@
 
   .heart2 .fa-heart:hover::before {
     animation: 4s essai forwards;
+    animation-duration: 7s;
   }
   .corazon:hover .heart .fa-heart::before {
-    animation: 5s cora forwards;
+    animation: 4s cora forwards;
   }
   @keyframes essai {
     100% {
       opacity: 1;
-      background: -webkit-linear-gradient(#9c47fc, #ff79da);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
     }
   }
 
