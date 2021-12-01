@@ -296,8 +296,8 @@
   }
   .cards {
     /*positionnement des card et flex*/
-    flex: 1 1 40%;
     margin: 1%;
+    flex-basis: 45%;
   }
 
   .boxcard figure img {
@@ -314,7 +314,7 @@
   } /* all figure of Restaurant*/
 
   figure {
-    margin-left: 10%; /*position of restaurant cards*/
+    margin-left: 15%; /*position of restaurant cards*/
   }
   figcaption :nth-child(1) {
     font-family: "Roboto-Bold.ttf";
