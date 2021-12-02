@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 2600px) {
+@media screen and (min-width: 1024px) and (max-width: 3000px) {
   @font-face {
     font-family: "Shrikhand-Regular.ttf";
     src: url("fontfamily/Shrikhand-Regular.ttf");
@@ -294,12 +294,13 @@
     margin-top: 30px;
     font-size: 3rem;
   }
-  .cards {
-    /*positionnement des card et flex*/
-    margin: 1%;
-    flex-basis: 45%;
+  @media screen and (min-width: 1024px) and (max-width: 2200px) {
+    .cards {
+      /*positionnement des card et flex*/
+      margin: 1%;
+      flex-basis: 45%;
+    }
   }
-
   .boxcard figure img {
     object-fit: cover; /*all img of Restaurant*/
     width: 101.2%;
@@ -420,7 +421,7 @@
     width: 70px;
   }
 
-  /***Footer***/
+  /***medi***/
   footer {
     background-color: rgb(51, 51, 51); /*background de footer*/
     padding-top: 8px;
@@ -457,5 +458,12 @@
   .hands {
     /*icon mains*/
     padding-right: 12px;
+  }
+  @media screen and (min-width: 2201px) and (max-width: 2700px) {
+    .cards {
+      /*positionnement des card et flex*/
+      margin: 1%;
+      flex-basis: 48%;
+    }
   }
 }
