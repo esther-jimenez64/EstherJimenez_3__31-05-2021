@@ -90,7 +90,7 @@
 
   .heart2 .fa-heart:hover::before {
     animation: 3s essai forwards;
-    animation-duration: 7s;
+    animation-duration: 2100ms;
   }
   .corazon:hover .heart .fa-heart::before {
     animation: 4s cora forwards;

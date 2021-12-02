@@ -163,7 +163,7 @@
 
   .heart2 .fa-heart:active::before {
     animation: 3s essai forwards;
-    animation-duration: 7s;
+    animation-duration: 2100ms;
   }
   .corazon:active .heart .fa-heart::before {
     animation: 4s cora forwards;
@@ -408,7 +408,7 @@
 
   .heart2 .fa-heart:active::before {
     animation: 3s essai forwards;
-    animation-duration: 7s;
+    animation-duration: 2100ms;
   }
   .corazon:active .heart .fa-heart::before {
     animation: 3s cora forwards;
