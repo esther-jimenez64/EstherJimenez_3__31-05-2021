@@ -34,7 +34,7 @@ leur mise en page est libre.
 ● Le site est parfaitement compatible avec les dernières versions desktop de
 Chrome et Firefox.
 
- Contenu des pages
+Contenu des pages
 Page d’accueil (x1)
 ● Affichage de la localisation des restaurants. À terme il sera possible de choisir sa
 localisation pour trouver des restaurants proches d’un certain lieu.
@@ -52,18 +52,18 @@ Header
 ● Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
 
 Boutons
-● Au survol, la couleur de fond des boutons principaux  s’éclaircir légèrement.
-L’ombre portée est également  plus visible.
+● Au survol, la couleur de fond des boutons principaux s’éclaircir légèrement.
+L’ombre portée est également plus visible.
 ● les visiteurs peuvent sauvegarder leurs menus préférés. Pour ça, un
-bouton "J’aime" en forme de cœur est présent . Au clic, il  se
+bouton "J’aime" en forme de cœur est présent . Au clic, il se
 remplir progressivement. Pour cette première version, l’effet peut être apparaître au
 survol sur desktop au lieu du clic.
 Page d’accueil
 
 Pages de menu
-● À l’arrivée sur la page, les plats  apparaîsse progressivement avec un léger
-décalage dans le temps. Ils pourront apparaîsse  un par un.
+● À l’arrivée sur la page, les plats apparaîsse progressivement avec un léger
+décalage dans le temps. Ils pourront apparaîsse un par un.
 ● Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus.
-Cela fait apparaître une petite coche à droite du plat. Cette coche  coulisse de
+Cela fait apparaître une petite coche à droite du plat. Cette coche coulisse de
 la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol
-sur desktop au lieu du clic. 
+sur desktop au lieu du clic.

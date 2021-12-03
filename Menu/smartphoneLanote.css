@@ -454,9 +454,9 @@
     }
 
     .heart2 .fa-heart::before {
-      background: -webkit-linear-gradient(#9c47fc, #ff79da);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background:linear-gradient(#9c47fc, #ff79da);
+      background-clip: text;
+      color: transparent;
       cursor: pointer;
       font-weight: bold;
       transition: color 1.2s ease-out;
@@ -466,7 +466,7 @@
 
     .heart2 .fa-heart:active::before {
       animation: 3s essai forwards;
-      animation-duration: 2100ms;
+      animation-duration: 4000ms;
     }
     .corazon:active .heart .fa-heart::before {
       animation: 4s cora forwards;
