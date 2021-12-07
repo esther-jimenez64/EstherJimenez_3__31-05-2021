@@ -129,7 +129,7 @@
     color: rgb(53, 53, 53);
   }
   section#blockMenu {
-    background-color: rgba(245, 245, 245, 0.993);
+    background-color: #f6f6f6;
     border-radius: 50px 50px 0px 0px;
     padding-top: 20px;
     height: 350px; /*id qui englobe toute la section plat */

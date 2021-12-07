@@ -262,6 +262,28 @@
   }
 }
 @media screen and (min-width: 50px) and (max-width: 1202px) {
+  /**Header**/
+  #logo img {
+    width: 60%; /*img logo */
+  }
+
+  #logo {
+    /*position du logo*/
+    margin-bottom: -5px;
+    margin-top: 15px;
+    padding-left: 26%;
+  }
+
+  .fa-arrow-left:before  /*icon Fléche*/ {
+    color: rgb(31, 30, 30);
+  }
+
+  .FlecheIcon  /*move Icon arrow*/ {
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 1.2em;
+    margin-left: 8%;
+  }
   .card {
     height: 85px;
     width: 98%;

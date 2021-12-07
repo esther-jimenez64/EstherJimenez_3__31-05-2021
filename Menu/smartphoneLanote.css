@@ -24,13 +24,14 @@
   }
   /**Header**/
   #logo img {
-    width: 40%; /*img logo */
+    width: 60%; /*img logo */
   }
 
   #logo {
-    position: relative; /*position du logo*/
-    left: 28%;
-    top: 13px;
+    /*position du logo*/
+    margin-bottom: -5px;
+    margin-top: 15px;
+    padding-left: 26%;
   }
 
   .fa-arrow-left:before  /*icon Fléche*/ {
@@ -38,10 +39,10 @@
   }
 
   .FlecheIcon  /*move Icon arrow*/ {
-    position: relative;
-    bottom: 20px;
-    left: 7%;
     font-size: 1.1rem;
+    position: relative;
+    bottom: 1.2em;
+    margin-left: 8%;
   }
 
   #photoBackground img {
@@ -104,6 +105,27 @@
   @media screen and (min-width: 50px) and (max-width: 811px) {
     /***Section Commander****/
 
+    #logo img {
+      width: 60%; /*img logo */
+    }
+
+    #logo {
+      /*position du logo*/
+      margin-bottom: -5px;
+      margin-top: 15px;
+      padding-left: 26%;
+    }
+
+    .fa-arrow-left:before  /*icon Fléche*/ {
+      color: rgb(31, 30, 30);
+    }
+
+    .FlecheIcon  /*move Icon arrow*/ {
+      font-size: 1.1rem;
+      position: relative;
+      bottom: 1.2em;
+      margin-left: 8%;
+    }
     .BoutonExplore a {
       font-size: 1.1rem;
       width: 400px;
@@ -197,26 +219,25 @@
     }
     /**Header**/
     #logo img {
-      width: 40%; /*img logo */
+      width: 60%; /*img logo */
     }
 
     #logo {
-      position: relative; /*position du logo*/
-      left: 28%;
-      top: 12px;
+      /*position du logo*/
+      margin-bottom: -5px;
+      margin-top: 15px;
+      padding-left: 26%;
     }
 
     .fa-arrow-left:before  /*icon Fléche*/ {
       color: rgb(31, 30, 30);
-      position: relative;
-      left: 7%;
     }
 
     .FlecheIcon  /*move Icon arrow*/ {
+      font-size: 1.1rem;
       position: relative;
-      bottom: 15px;
-      left: 7%;
-      font-size: 1rem;
+      bottom: 1.2em;
+      margin-left: 8%;
     }
 
     #photoBackground img {
@@ -506,6 +527,27 @@
     }
 
     @media screen and (min-width: 50px) and (max-width: 1202px) {
+      #logo img {
+        width: 60%; /*img logo */
+      }
+
+      #logo {
+        /*position du logo*/
+        margin-bottom: -5px;
+        margin-top: 15px;
+        padding-left: 26%;
+      }
+
+      .fa-arrow-left:before  /*icon Fléche*/ {
+        color: rgb(31, 30, 30);
+      }
+
+      .FlecheIcon  /*move Icon arrow*/ {
+        font-size: 1.1rem;
+        position: relative;
+        bottom: 1.2em;
+        margin-left: 8%;
+      }
       .card {
         height: 85px;
         width: 100%;

@@ -27,10 +27,15 @@
     width: 40%; /*img logo */
   }
 
+  /**Header**/
+  #logo img {
+    width: 55%; /*img logo */
+  }
+
   #logo {
-    position: relative; /*position du logo*/
-    left: 28%;
-    top: 5px;
+    margin-bottom: -14px;
+    margin-top: 25px;
+    padding-left: 32%; /*position du logo*/
   }
 
   .fa-arrow-left:before  /*icon Fléche*/ {
@@ -40,7 +45,7 @@
   .FlecheIcon  /*move Icon arrow*/ {
     position: relative;
     bottom: 55px;
-    left: 7%;
+    margin-left: 8%;
     font-size: 2rem;
   }
 
