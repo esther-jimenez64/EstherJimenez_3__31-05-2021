@@ -1,35 +1,7 @@
 @media screen and (min-width: 1024px) and (max-width: 3000px) {
-  @font-face {
-    font-family: "Shrikhand-Regular.ttf";
-    src: url("fontfamily/Shrikhand-Regular.ttf");
-    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
-        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
-  }
-  /*Les fonts*/
-  @font-face {
-    font-family: "Roboto-Italic.ttf";
-    src: url("fontfamily/Roboto-Italic.ttf");
-    src: url("fontfamily/Roboto-Italic.ttf?#iefix")
-        format("fontfamily/Roboto-Italic.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Italic.ttf") format("woff"),
-      url("fontfamily/Roboto-Italic.ttf") format("truetype"),
-      url("fontfamily/Roboto-Italic.ttf") format("svg");
-  }
-  @font-face {
-    font-family: "Roboto-Bold.ttf";
-    src: url("fontfamily/Roboto-Bold.ttf");
-    src: url("fontfamily/Roboto-Bold.ttf")
-        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Bold.ttf") format("woff"),
-      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
-      url("fontfamily/Roboto-Bold.ttf") format("svg");
-  }
-
   body {
     margin: 0;
+    font-family:'Roboto', sans-serif;
   }
 
   @keyframes loader {
@@ -65,7 +37,7 @@
 
   h1 {
     font: 2em;
-    font-family: "Shrikhand-Regular.ttf";
+    font-family: "Shrikhand";
     font-weight: lighter;
     margin-bottom: 40px;
   }
@@ -117,7 +89,6 @@
     margin-top: 10px;
   }
   #positionParis p {
-    font-family: "roboto,sans-serif.ttf";
     font-size: 35px;
     font-weight: bold; /*titre Paris*/
     color: rgb(56, 55, 55);
@@ -144,8 +115,7 @@
   }
 
   #ReserveExplore h2 {
-    font-size: 2.2rem;
-    font-family: "roboto", sans-serif; /*titre reservation*/
+    font-size: 2.2rem;/*titre reservation*/
     font-weight: bold;
     margin-left: 3%;
     margin-top: 5%;
@@ -153,7 +123,6 @@
 
   #ReserveExplore p {
     display: inline;
-    font-family: "roboto,sans-serif.ttf";
     color: rgb(88, 88, 88);
     font-size: 2rem;
     width: 95%; /*paragraphe*/
@@ -183,7 +152,7 @@
     font-size: 1.6rem;
     text-decoration: none; /*all buton Explore lien*/
     color: white;
-    font-family: "Roboto-Bold.ttf";
+    font-family: "Roboto";
     cursor: pointer;
     position: relative;
     bottom: 5px;
@@ -195,7 +164,6 @@
   }
 
   #Fonctionnement h2 {
-    font-family: "Roboto-Bold.ttf";
     font-size: 3rem;
     margin-left: 35%;
     margin-top: 5%;
@@ -245,7 +213,6 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    font-family: "Roboto-Bold.ttf";
     z-index: 1;
     position: relative;
     top: 123px;
@@ -258,7 +225,7 @@
     /*tout les titre dans fonctionnment*/
     text-decoration: none;
     color: black;
-    font-family: "Roboto-Bold.ttf";
+    font-family: "Roboto";
     cursor: pointer;
     font-size: 1.1rem;
     padding-top: 50px;
@@ -288,7 +255,6 @@
   }
 
   #Restaurant h2 {
-    font-family: "Roboto-Bold.ttf";
     margin-left: 41%;
     margin-top: 30px;
     font-size: 3rem;
@@ -317,7 +283,7 @@
     margin-left: 15%; /*position of restaurant cards*/
   }
   figcaption :nth-child(1) {
-    font-family: "Roboto-Bold.ttf";
+    font-family: "Roboto";
     font-size: 1.3rem;
     color: black;
     margin-top: 3%;
@@ -325,7 +291,7 @@
   } /* figcaption of Restaurant*/
 
   figcaption :nth-child(2) {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     color: rgb(53, 53, 53);
     position: relative; /*figcaption of Restaurant*/
@@ -407,7 +373,6 @@
   }
 
   .nouveau {
-    font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
@@ -430,7 +395,7 @@
     position: absolute;
   }
   footer h3 {
-    font-family: "Shrikhand-Regular.ttf";
+    font-family: "Shrikhand";
     font-weight: lighter;
     margin-top: 2%;
     margin-left: 2%;

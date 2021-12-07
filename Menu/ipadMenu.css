@@ -1,27 +1,8 @@
 @media screen and (min-width: 810px) and (max-width: 1202px) {
-  @font-face {
-    font-family: "Shrikhand-Regular.ttf";
-    src: url("fontfamily/Shrikhand-Regular.ttf");
-    src: url("fontfamily/Shrikhand-Regular.ttf?#iefix")
-        format("fontfamily/Shrikhand-Regular.ttfembedded-opentype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("woff"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("truetype"),
-      url("fontfamily/Shrikhand-Regular.ttf") format("svg");
-  }
-
-  @font-face {
-    font-family: "Roboto-Bold.ttf";
-    src: url("fontfamily/Roboto-Bold.ttf");
-    src: url("fontfamily/Roboto-Bold.ttf")
-        format("fontfamily/Roboto-Bold.ttfembedded-opentype"),
-      url("fontfamily/Roboto-Bold.ttf") format("woff"),
-      url("fontfamily/Roboto-Bold.ttf") format("truetype"),
-      url("fontfamily/Roboto-Bold.ttf") format("svg");
-  }
-
   body {
     margin: 0px;
     width: 100%;
+    font-family: "Roboto", sans-serif;
   }
   /**Header**/
   #logo img {
@@ -56,7 +37,7 @@
   /***Section À la française***/
 
   h2 {
-    font-family: "shrikhand", sans-serif; /*titre Le délice des sens */
+    font-family: "Shrikhand", cursive; /*titre Le délice des sens */
     margin-left: 20px;
     z-index: 1;
     display: flex;
@@ -65,7 +46,7 @@
   }
 
   #blockMenu {
-    background-color: rgba(238, 238, 238, 0.993);
+    background-color: #f6f6f6;
     border-radius: 40px 40px 0px 0px;
     padding-top: 20px;
     height: 1120px; /*id qui englobe toute la section plat */
@@ -74,6 +55,10 @@
     bottom: 105px;
   }
 
+  main {
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
+  }
   .heart .fa-heart {
     border-radius: 50%;
 
@@ -95,12 +80,11 @@
   .entre a {
     text-decoration: none;
     color: black; /*les lien de touts les plats*/
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   .entre h3 {
-    font-size: 1rem;
-    font-family: "roboto", sans-serif; /*titre entré*/
+    font-size: 1rem; /*titre entré*/
     color: #0f0f0f;
     font-weight: 200;
     margin-bottom: 30px;
@@ -276,6 +260,7 @@
     animation-timing-function: ease-in;
     animation-duration: 2s;
     animation-duration: 2s;
+    background-color: white;
   }
 
   .container {
@@ -328,6 +313,9 @@
     transition: 400ms linear;
   }
 
+  .description {
+    font-weight: lighter;
+  }
   .card:hover .check {
     min-width: 100px;
   }
@@ -349,7 +337,7 @@
     width: 400px;
     text-decoration: none;
     color: white;
-    font-family: "Roboto-Bold.ttf";
+    font-family: "Roboto";
     cursor: pointer;
   }
 
@@ -385,14 +373,14 @@ footer {
   background-color: rgb(51, 51, 51); /*background de footer*/
   padding-top: 8px;
   padding-bottom: 0px;
-  margin-top: 50px;
+
   margin-bottom: 0;
   height: 210px;
   width: 100%;
   position: absolute;
 }
 footer h3 {
-  font-family: "Shrikhand-Regular.ttf";
+  font-family: "Shrikhand";
   font-weight: lighter;
   margin-left: 0%;
   color: rgba(235, 235, 235, 0.897);

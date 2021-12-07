@@ -30,9 +30,13 @@
     top: 0px;
   }
 
+  body
+  {
+    font-family:'Roboto', sans-serif;
+  }
   h1 {
     font-size: 0.8em;
-    font-family: "Shrikhand-Regular.ttf";
+    font-family: "Shrikhand";
     font-weight: lighter;
     margin-bottom: 10px;
   }
@@ -199,7 +203,6 @@
   }
 
   .nouveau {
-    font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
@@ -274,7 +277,7 @@
 
   h1 {
     font-size: 0.8em;
-    font-family: "Shrikhand-Regular.ttf";
+    font-family: "Shrikhand";
     font-weight: lighter;
     margin-bottom: 10px;
   }
@@ -438,7 +441,6 @@
   }
 
   .nouveau {
-    font-family: "Roboto-Bold.ttf";
     color: #1f997c;
     background-color: #99e2d0;
     /*Vignete nouveau sur les cards*/
